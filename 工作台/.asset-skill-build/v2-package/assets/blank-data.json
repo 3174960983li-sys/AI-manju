@@ -1,0 +1,13 @@
+{
+  "schema_version": 2,
+  "meta": {
+    "project": "资产需求清单",
+    "source_label": "来源：待填写",
+    "scope_note": "范围：待填写；正式数据区为空。"
+  },
+  "sheets": {
+    "角色": [],
+    "场景": [],
+    "道具": []
+  }
+}

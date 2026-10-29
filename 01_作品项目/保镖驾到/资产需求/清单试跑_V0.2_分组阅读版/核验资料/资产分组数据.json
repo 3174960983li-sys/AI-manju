@@ -1,0 +1,2285 @@
+{
+  "schema_version": 2,
+  "meta": {
+    "project": "保镖驾到",
+    "source_label": "来源：用户提供《全60集场景与道具精简整合清单》，非逐场剧本。",
+    "scope_note": "范围：清单全文；性格、服装等未交代内容不补写。原文定位按源Word表/段落。"
+  },
+  "sheets": {
+    "角色": [
+      {
+        "id": "R01",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "江辰",
+        "description": "孤狼身份；关联银色半面具与通讯耳机，有少年闪回形态。",
+        "original": "通讯耳机；绑定江辰孤狼人物造型\n〔源表7第10行〕\nP02 孤狼银色半面具；佩戴、侧面、摘下面具，江辰脸型不变。\n〔源表8第3行〕\nS10 少年江辰的家；书房与密室必须通过墙上观察孔关联，不能分成无关场景\n〔源表3第4行〕",
+        "episodes": "第1集起",
+        "source_refs": [
+          "T7R010",
+          "T8R003",
+          "T3R004"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "CHR-0001"
+        ]
+      },
+      {
+        "id": "R01-01",
+        "parent_id": "R01",
+        "kind": "状态",
+        "name": "少年形态",
+        "description": "同一江辰的少年闪回形态；年龄和服装细节未提供。",
+        "original": "S10 少年江辰的家；书房与密室必须通过墙上观察孔关联，不能分成无关场景\n〔源表3第4行〕",
+        "episodes": "第4集闪回",
+        "source_refs": [
+          "T3R004"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "CHV-0019"
+        ]
+      },
+      {
+        "id": "R01-02",
+        "parent_id": "R01",
+        "kind": "状态",
+        "name": "银色半面具佩戴状态",
+        "description": "佩戴银色半面具，脸型与江辰保持同一身份。",
+        "original": "P02 孤狼银色半面具；佩戴、侧面、摘下面具，江辰脸型不变。\n〔源表8第3行〕",
+        "episodes": "第1集；后续使用集数待原剧",
+        "source_refs": [
+          "T8R003"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "CHV-0020"
+        ]
+      },
+      {
+        "id": "R01-03",
+        "parent_id": "R01",
+        "kind": "状态",
+        "name": "摘下面具状态",
+        "description": "摘去半面具露出同一张脸，不另设计成另一人物。",
+        "original": "P02 孤狼银色半面具；佩戴、侧面、摘下面具，江辰脸型不变。\n〔源表8第3行〕",
+        "episodes": "具体集数未提供",
+        "source_refs": [
+          "T8R003"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "CHV-0020"
+        ]
+      },
+      {
+        "id": "R02",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "苏小菲",
+        "description": "阴玉与其身体融合；常用棒棒糖，耳环可用于攻击。",
+        "original": "P01 西王母玉（阴/阳）；阴玉与苏小菲身体融合；阳玉关联江辰。分实物历史状态和身体能量表现，不默认是可随手取出的玉佩。\n〔源表8第2行〕\n棒棒糖；苏小菲人物常规习惯道具，可放入其日常造型；不必单独建模\n〔源表7第2行〕\nP06 苏小菲耳环；耳上→摘下→手中攻击→完好→重新戴回，跨镜外观一致。\n〔源表8第7行〕",
+        "episodes": "第1集仅玉关联，首次本人入画未明",
+        "source_refs": [
+          "T8R002",
+          "T7R002",
+          "T8R007"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "CHR-0002"
+        ]
+      },
+      {
+        "id": "R02-01",
+        "parent_id": "R02",
+        "kind": "状态",
+        "name": "阴玉融合状态",
+        "description": "身体融合/能量表现；不默认是可随手取出的玉佩。",
+        "original": "P01 西王母玉（阴/阳）；阴玉与苏小菲身体融合；阳玉关联江辰。分实物历史状态和身体能量表现，不默认是可随手取出的玉佩。\n〔源表8第2行〕",
+        "episodes": "起止集数未提供",
+        "source_refs": [
+          "T8R002"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "CHV-0022"
+        ]
+      },
+      {
+        "id": "R03",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "张阎王",
+        "description": "有自家别墅大厅场景及受伤护理需求；人物小传未提供。",
+        "original": "S11 张阎王家；“张阎王家”与“别墅大厅”合并；沙发、茶几融入场景\n〔源表3第5行〕\n毛巾、冰袋；随张阎王受伤妆造生成\n〔源表7第4行〕",
+        "episodes": "第6集",
+        "source_refs": [
+          "T3R005",
+          "T7R004"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "CHR-0003"
+        ]
+      },
+      {
+        "id": "R03-01",
+        "parent_id": "R03",
+        "kind": "状态",
+        "name": "受伤护理状态",
+        "description": "受伤妆造配合毛巾、冰袋；伤处与程度未提供。",
+        "original": "毛巾、冰袋；随张阎王受伤妆造生成\n〔源表7第4行〕",
+        "episodes": "第6集",
+        "source_refs": [
+          "T7R004"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "CHV-0021"
+        ]
+      },
+      {
+        "id": "R04",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "周天",
+        "description": "关联钢铁拳套的战斗人物。",
+        "original": "P07 周天钢铁拳套；完整、受击、裂纹、破裂；需与耳环尺寸和攻击方向匹配。\n〔源表8第8行〕",
+        "episodes": "第19集",
+        "source_refs": [
+          "T8R008"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "CHR-0004"
+        ]
+      },
+      {
+        "id": "R05",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "血手",
+        "description": "佩戴标志性血红手套；具体左右手待原剧。",
+        "original": "P08 血手红手套；标志性血红色手套，固定左右手与接触动作。\n〔源表8第9行〕",
+        "episodes": "第9集",
+        "source_refs": [
+          "T8R009"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "CHR-0005"
+        ]
+      },
+      {
+        "id": "R06",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "银女",
+        "description": "涉及修炼、飞刀、黑气和金光变化；不由称号推定银发银衣。",
+        "original": "P09 银女飞刀；三把/九把，黑气附着、金光转化与回射。\n〔源表8第10行〕",
+        "episodes": "首次入画未明确；飞刀第58集",
+        "source_refs": [
+          "T8R010"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "CHR-0006"
+        ]
+      },
+      {
+        "id": "R07",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "鲨鱼",
+        "description": "密室会面人物；“鲨鱼”为人物指称，不按动物处理。",
+        "original": "3. 银女修炼密室、鲨鱼会议密室、神秘面具女性所在密室是否为同一实际地点，剧本未明确说明；在制作资产时可复用美术设计，但不能擅自认定为同一个房间。\n〔源段39〕",
+        "episodes": "未明确",
+        "source_refs": [
+          "P039"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "CHR-0007"
+        ]
+      },
+      {
+        "id": "R08",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "神秘面具女性",
+        "description": "密室汇报人物；与银女是否同一身份尚无依据。",
+        "original": "3. 银女修炼密室、鲨鱼会议密室、神秘面具女性所在密室是否为同一实际地点，剧本未明确说明；在制作资产时可复用美术设计，但不能擅自认定为同一个房间。\n〔源段39〕",
+        "episodes": "未明确",
+        "source_refs": [
+          "P039"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "CHR-0008"
+        ]
+      },
+      {
+        "id": "R09",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "江辰父亲",
+        "description": "合葬墓指向的人物，仅有提及依据，未提供出镜描写。",
+        "original": "墓地；墓碑、墓道、背景植被；江辰父母的合葬墓碑位置和特征固定\n〔源表6第11行〕",
+        "episodes": "第31—32集墓地关联",
+        "source_refs": [
+          "T6R011"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "CHR-0009"
+        ]
+      },
+      {
+        "id": "R10",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "江辰母亲",
+        "description": "合葬墓指向的人物，仅有提及依据，未提供出镜描写。",
+        "original": "墓地；墓碑、墓道、背景植被；江辰父母的合葬墓碑位置和特征固定\n〔源表6第11行〕",
+        "episodes": "第31—32集墓地关联",
+        "source_refs": [
+          "T6R011"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "CHR-0010"
+        ]
+      },
+      {
+        "id": "R11",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "大将军（动物）",
+        "description": "藏獒；有趴卧、龇牙、扑出、服从、摇尾动作需求。",
+        "original": "动物角色；藏獒“大将军”；独立角色资产：趴卧、龇牙、扑出、服从、摇尾等动作。\n〔源表9第3行〕",
+        "episodes": "第3—8集别墅关联",
+        "source_refs": [
+          "T9R003"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "CHR-0011"
+        ]
+      },
+      {
+        "id": "R12",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "绑匪（群体）",
+        "description": "绑架相关群众，人数与具体个体未交代。",
+        "original": "群演与组织；绑匪、打手、杀手、特工、战神卫、地下势力等；属于人物/群演资产，不计入场景或道具数量。\n〔源表9第5行〕",
+        "episodes": "未明确",
+        "source_refs": [
+          "T9R005"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "CHR-0012"
+        ]
+      },
+      {
+        "id": "R13",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "打手（群体）",
+        "description": "打斗相关群众，是否跨场同批人未交代。",
+        "original": "群演与组织；绑匪、打手、杀手、特工、战神卫、地下势力等；属于人物/群演资产，不计入场景或道具数量。\n〔源表9第5行〕",
+        "episodes": "未明确",
+        "source_refs": [
+          "T9R005"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "CHR-0013"
+        ]
+      },
+      {
+        "id": "R14",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "杀手（群体）",
+        "description": "杀手群体，具体人数、身份与外观未交代。",
+        "original": "群演与组织；绑匪、打手、杀手、特工、战神卫、地下势力等；属于人物/群演资产，不计入场景或道具数量。\n〔源表9第5行〕",
+        "episodes": "未明确",
+        "source_refs": [
+          "T9R005"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "CHR-0014"
+        ]
+      },
+      {
+        "id": "R15",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "特工（群体）",
+        "description": "特工群体，具体人数、外观未交代。",
+        "original": "群演与组织；绑匪、打手、杀手、特工、战神卫、地下势力等；属于人物/群演资产，不计入场景或道具数量。\n〔源表9第5行〕",
+        "episodes": "未明确",
+        "source_refs": [
+          "T9R005"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "CHR-0015"
+        ]
+      },
+      {
+        "id": "R16",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "战神卫（群体）",
+        "description": "组织群众需求，不据组织名称擅定统一制服。",
+        "original": "群演与组织；绑匪、打手、杀手、特工、战神卫、地下势力等；属于人物/群演资产，不计入场景或道具数量。\n〔源表9第5行〕",
+        "episodes": "未明确",
+        "source_refs": [
+          "T9R005"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "CHR-0016"
+        ]
+      },
+      {
+        "id": "R17",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "地下势力人员（群体）",
+        "description": "地下势力相关群体，与会所大佬/保镖的重叠关系待核。",
+        "original": "群演与组织；绑匪、打手、杀手、特工、战神卫、地下势力等；属于人物/群演资产，不计入场景或道具数量。\n〔源表9第5行〕",
+        "episodes": "未明确",
+        "source_refs": [
+          "T9R005"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "CHR-0017"
+        ]
+      },
+      {
+        "id": "R18",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "校园背景学生（群体）",
+        "description": "校园/食堂背景群众，人数与造型由实际场景补充。",
+        "original": "S02 大学校园；大学门口、教学楼前、公共区、食堂；校园长椅、宣传栏、食堂桌椅、餐具、学生背景\n〔源表2第3行〕",
+        "episodes": "第9集起",
+        "source_refs": [
+          "T2R003"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "CHR-0018"
+        ]
+      },
+      {
+        "id": "R19",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "会所大佬群体（群体）",
+        "description": "会所两侧座席人物；真实位置在反打中保持一致。",
+        "original": "私人会所；门外＋内部大厅；中心主位、两侧大佬及保镖的位置不能因反打而颠倒\n〔源表5第3行〕",
+        "episodes": "第34—41集",
+        "source_refs": [
+          "T5R003"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "CHR-0019"
+        ]
+      },
+      {
+        "id": "R20",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "会所保镖群体（群体）",
+        "description": "会所保镖群体，站位与大佬座席保持对应。",
+        "original": "私人会所；门外＋内部大厅；中心主位、两侧大佬及保镖的位置不能因反打而颠倒\n〔源表5第3行〕",
+        "episodes": "第34—41集",
+        "source_refs": [
+          "T5R003"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "CHR-0020"
+        ]
+      }
+    ],
+    "场景": [
+      {
+        "id": "S01",
+        "parent_id": "",
+        "kind": "母场景",
+        "name": "苏家别墅",
+        "description": "客厅、餐厅、书房、两间卧室、走廊楼梯、阳台、院子和大门；卧室独立，阳台可看院子。",
+        "original": "S01 苏家别墅；客厅/大厅、餐厅、书房、两间卧室、走廊楼梯、阳台、院子、大门；家具、沙发茶几、床品、绿植、餐具、室内灯具；后期订婚布置复用院子\n〔源表2第2行〕\n苏家别墅；大厅/客厅/餐厅/卧室/走廊/院子；卧室各自为独立物理房间；卧室阳台能看到院子；院子需白天、夜间、订婚版，建筑不变\n〔源表5第2行〕",
+        "episodes": "第3集起；订婚段第53—60集",
+        "source_refs": [
+          "T2R002",
+          "T5R002"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": []
+      },
+      {
+        "id": "S01-01",
+        "parent_id": "S01",
+        "kind": "子场景",
+        "name": "客厅/大厅",
+        "description": "沙发、茶几、茶具、地毯、绿植",
+        "original": "苏家大厅/客厅；沙发、茶几、茶具、地毯、绿植；藏獒是动物角色，不是环境道具\n〔源表6第4行〕",
+        "episodes": "第3集起相关；子场景集数未细分",
+        "source_refs": [
+          "T6R004"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "LOC-0001"
+        ]
+      },
+      {
+        "id": "S01-02",
+        "parent_id": "S01",
+        "kind": "子场景",
+        "name": "餐厅",
+        "description": "餐桌、椅、碗筷、普通食物",
+        "original": "苏家餐厅；餐桌、椅、碗筷、普通食物；关键食品互动时锁定餐盘摆放\n〔源表6第5行〕",
+        "episodes": "第3集起相关；子场景集数未细分",
+        "source_refs": [
+          "T6R005"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "LOC-0002"
+        ]
+      },
+      {
+        "id": "S01-03",
+        "parent_id": "S01",
+        "kind": "子场景",
+        "name": "书房",
+        "description": "别墅书房；结构与陈设待原剧补充。",
+        "original": "S01 苏家别墅；客厅/大厅、餐厅、书房、两间卧室、走廊楼梯、阳台、院子、大门；家具、沙发茶几、床品、绿植、餐具、室内灯具；后期订婚布置复用院子\n〔源表2第2行〕",
+        "episodes": "第3集起相关；子场景集数未细分",
+        "source_refs": [
+          "T2R002"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "LOC-0003"
+        ]
+      },
+      {
+        "id": "S01-04",
+        "parent_id": "S01",
+        "kind": "子场景",
+        "name": "卧室A",
+        "description": "床品、枕头、柜体、灯具",
+        "original": "两间卧室；床、被子、枕头、柜体、灯具；衣物变化属于人物服装资产\n〔源表6第6行〕",
+        "episodes": "第3集起相关；子场景集数未细分",
+        "source_refs": [
+          "T6R006"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "LOC-0004"
+        ]
+      },
+      {
+        "id": "S01-05",
+        "parent_id": "S01",
+        "kind": "子场景",
+        "name": "卧室B",
+        "description": "床品、枕头、柜体、灯具",
+        "original": "两间卧室；床、被子、枕头、柜体、灯具；衣物变化属于人物服装资产\n〔源表6第6行〕",
+        "episodes": "第3集起相关；子场景集数未细分",
+        "source_refs": [
+          "T6R006"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "LOC-0005"
+        ]
+      },
+      {
+        "id": "S01-06",
+        "parent_id": "S01",
+        "kind": "子场景",
+        "name": "走廊楼梯",
+        "description": "连接别墅子空间的走廊与楼梯，具体布局未提供。",
+        "original": "S01 苏家别墅；客厅/大厅、餐厅、书房、两间卧室、走廊楼梯、阳台、院子、大门；家具、沙发茶几、床品、绿植、餐具、室内灯具；后期订婚布置复用院子\n〔源表2第2行〕",
+        "episodes": "第3集起相关；子场景集数未细分",
+        "source_refs": [
+          "T2R002"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "LOC-0006"
+        ]
+      },
+      {
+        "id": "S01-07",
+        "parent_id": "S01",
+        "kind": "子场景",
+        "name": "阳台",
+        "description": "与卧室、院子存在视线关系，归属卧室未交代。",
+        "original": "苏家别墅；大厅/客厅/餐厅/卧室/走廊/院子；卧室各自为独立物理房间；卧室阳台能看到院子；院子需白天、夜间、订婚版，建筑不变\n〔源表5第2行〕",
+        "episodes": "第3集起相关；子场景集数未细分",
+        "source_refs": [
+          "T5R002"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "LOC-0007"
+        ]
+      },
+      {
+        "id": "S01-08",
+        "parent_id": "S01",
+        "kind": "子场景",
+        "name": "院子",
+        "description": "绿植；订婚版另记",
+        "original": "S01 苏家别墅；客厅/大厅、餐厅、书房、两间卧室、走廊楼梯、阳台、院子、大门；家具、沙发茶几、床品、绿植、餐具、室内灯具；后期订婚布置复用院子\n〔源表2第2行〕",
+        "episodes": "第3集起相关；子场景集数未细分",
+        "source_refs": [
+          "T2R002"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "LOC-0008"
+        ]
+      },
+      {
+        "id": "S01-08-01",
+        "parent_id": "S01-08",
+        "kind": "状态",
+        "name": "白天状态",
+        "description": "同一院子白天版本，建筑及空间关系不变。",
+        "original": "苏家别墅；大厅/客厅/餐厅/卧室/走廊/院子；卧室各自为独立物理房间；卧室阳台能看到院子；院子需白天、夜间、订婚版，建筑不变\n〔源表5第2行〕",
+        "episodes": "具体集数未提供",
+        "source_refs": [
+          "T5R002"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": []
+      },
+      {
+        "id": "S01-08-02",
+        "parent_id": "S01-08",
+        "kind": "状态",
+        "name": "夜间状态",
+        "description": "同一院子夜间版本，不更换别墅建筑。",
+        "original": "苏家别墅；大厅/客厅/餐厅/卧室/走廊/院子；卧室各自为独立物理房间；卧室阳台能看到院子；院子需白天、夜间、订婚版，建筑不变\n〔源表5第2行〕",
+        "episodes": "具体集数未提供",
+        "source_refs": [
+          "T5R002"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": []
+      },
+      {
+        "id": "S01-08-03",
+        "parent_id": "S01-08",
+        "kind": "状态",
+        "name": "订婚布置状态",
+        "description": "原院子叠加鲜花、迎宾与礼仪陈设，不更换建筑。",
+        "original": "苏家订婚院子；鲜花装饰、迎宾布置、礼仪陈设；在原院子上叠加，不能换一栋别墅\n〔源表6第13行〕",
+        "episodes": "第53—60集关联",
+        "source_refs": [
+          "T6R013"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": []
+      },
+      {
+        "id": "S01-09",
+        "parent_id": "S01",
+        "kind": "子场景",
+        "name": "大门",
+        "description": "别墅入口，具体造型与朝向未提供。",
+        "original": "S01 苏家别墅；客厅/大厅、餐厅、书房、两间卧室、走廊楼梯、阳台、院子、大门；家具、沙发茶几、床品、绿植、餐具、室内灯具；后期订婚布置复用院子\n〔源表2第2行〕",
+        "episodes": "第3集起相关；子场景集数未细分",
+        "source_refs": [
+          "T2R002"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "LOC-0009"
+        ]
+      },
+      {
+        "id": "S02",
+        "parent_id": "",
+        "kind": "母场景",
+        "name": "大学校园",
+        "description": "门口、教学楼前、公共区和食堂，校园设施与学生背景分开管理。",
+        "original": "S02 大学校园；大学门口、教学楼前、公共区、食堂；校园长椅、宣传栏、食堂桌椅、餐具、学生背景\n〔源表2第3行〕",
+        "episodes": "第9集起；校园冲突延至22集",
+        "source_refs": [
+          "T2R003"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": []
+      },
+      {
+        "id": "S02-01",
+        "parent_id": "S02",
+        "kind": "子场景",
+        "name": "大学门口",
+        "description": "长椅、宣传栏；食堂桌椅餐具按区域配置，学生另列角色",
+        "original": "S02 大学校园；大学门口、教学楼前、公共区、食堂；校园长椅、宣传栏、食堂桌椅、餐具、学生背景\n〔源表2第3行〕",
+        "episodes": "第9集起；校园冲突延至22集（子空间分配未列）",
+        "source_refs": [
+          "T2R003"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "LOC-0010"
+        ]
+      },
+      {
+        "id": "S02-02",
+        "parent_id": "S02",
+        "kind": "子场景",
+        "name": "教学楼前",
+        "description": "长椅、宣传栏；食堂桌椅餐具按区域配置，学生另列角色",
+        "original": "S02 大学校园；大学门口、教学楼前、公共区、食堂；校园长椅、宣传栏、食堂桌椅、餐具、学生背景\n〔源表2第3行〕",
+        "episodes": "第9集起；校园冲突延至22集（子空间分配未列）",
+        "source_refs": [
+          "T2R003"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "LOC-0011"
+        ]
+      },
+      {
+        "id": "S02-03",
+        "parent_id": "S02",
+        "kind": "子场景",
+        "name": "公共区",
+        "description": "长椅、宣传栏；食堂桌椅餐具按区域配置，学生另列角色",
+        "original": "S02 大学校园；大学门口、教学楼前、公共区、食堂；校园长椅、宣传栏、食堂桌椅、餐具、学生背景\n〔源表2第3行〕",
+        "episodes": "第9集起；校园冲突延至22集（子空间分配未列）",
+        "source_refs": [
+          "T2R003"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "LOC-0012"
+        ]
+      },
+      {
+        "id": "S02-04",
+        "parent_id": "S02",
+        "kind": "子场景",
+        "name": "食堂",
+        "description": "长椅、宣传栏；食堂桌椅餐具按区域配置，学生另列角色",
+        "original": "S02 大学校园；大学门口、教学楼前、公共区、食堂；校园长椅、宣传栏、食堂桌椅、餐具、学生背景\n〔源表2第3行〕",
+        "episodes": "第9集起；校园冲突延至22集（子空间分配未列）",
+        "source_refs": [
+          "T2R003"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "LOC-0013"
+        ]
+      },
+      {
+        "id": "S03",
+        "parent_id": "",
+        "kind": "母场景",
+        "name": "国外绑匪基地",
+        "description": "楼顶与地面活动区保持俯瞰、落地和包围方位关系。",
+        "original": "S03 国外绑匪基地；楼顶、地面活动区、绑架位置、撤离区域；烧烤架、桌椅、柱子、酒瓶、地面杂物\n〔源表2第4行〕\n国外绑匪基地；楼顶＋地面基地；楼顶俯瞰和落地后的位置关系、人物包围方向\n〔源表5第5行〕",
+        "episodes": "第1集",
+        "source_refs": [
+          "T2R004",
+          "T5R005"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": []
+      },
+      {
+        "id": "S03-01",
+        "parent_id": "S03",
+        "kind": "子场景",
+        "name": "楼顶",
+        "description": "具体楼顶陈设未明确",
+        "original": "S03 国外绑匪基地；楼顶、地面活动区、绑架位置、撤离区域；烧烤架、桌椅、柱子、酒瓶、地面杂物\n〔源表2第4行〕",
+        "episodes": "第1集（子空间分配未列）",
+        "source_refs": [
+          "T2R004"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "LOC-0014"
+        ]
+      },
+      {
+        "id": "S03-02",
+        "parent_id": "S03",
+        "kind": "子场景",
+        "name": "地面活动区",
+        "description": "烧烤架、桌椅、柱子、酒瓶、食物、杂物",
+        "original": "S03 国外绑匪基地；楼顶、地面活动区、绑架位置、撤离区域；烧烤架、桌椅、柱子、酒瓶、地面杂物\n〔源表2第4行〕",
+        "episodes": "第1集（子空间分配未列）",
+        "source_refs": [
+          "T2R004"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "LOC-0015"
+        ]
+      },
+      {
+        "id": "S04",
+        "parent_id": "",
+        "kind": "母场景",
+        "name": "烂尾楼",
+        "description": "外部、主要交战区及顶楼审问区；与废弃工厂为不同地点。",
+        "original": "S04 烂尾楼；外部、主要交战区域、顶楼审问区域；水泥柱、钢筋、建筑废料、破损墙面\n〔源表2第5行〕\n烂尾楼/废弃工厂；分别保留为两座不同地点；尽管都破旧，剧情地点不同，不可为省图直接共用同一建筑\n〔源表5第6行〕",
+        "episodes": "第10—15集",
+        "source_refs": [
+          "T2R005",
+          "T5R006"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": []
+      },
+      {
+        "id": "S04-01",
+        "parent_id": "S04",
+        "kind": "子场景",
+        "name": "外部",
+        "description": "水泥柱、钢筋、建筑废料、破损墙面；具体归区待核",
+        "original": "S04 烂尾楼；外部、主要交战区域、顶楼审问区域；水泥柱、钢筋、建筑废料、破损墙面\n〔源表2第5行〕",
+        "episodes": "第10—15集（子空间分配未列）",
+        "source_refs": [
+          "T2R005"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "LOC-0016"
+        ]
+      },
+      {
+        "id": "S04-02",
+        "parent_id": "S04",
+        "kind": "子场景",
+        "name": "主要交战区域",
+        "description": "水泥柱、钢筋、建筑废料、破损墙面；具体归区待核",
+        "original": "S04 烂尾楼；外部、主要交战区域、顶楼审问区域；水泥柱、钢筋、建筑废料、破损墙面\n〔源表2第5行〕",
+        "episodes": "第10—15集（子空间分配未列）",
+        "source_refs": [
+          "T2R005"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "LOC-0017"
+        ]
+      },
+      {
+        "id": "S04-03",
+        "parent_id": "S04",
+        "kind": "子场景",
+        "name": "顶楼审问区域",
+        "description": "水泥柱、钢筋、建筑废料、破损墙面；具体归区待核",
+        "original": "S04 烂尾楼；外部、主要交战区域、顶楼审问区域；水泥柱、钢筋、建筑废料、破损墙面\n〔源表2第5行〕",
+        "episodes": "第10—15集（子空间分配未列）",
+        "source_refs": [
+          "T2R005"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "LOC-0018"
+        ]
+      },
+      {
+        "id": "S05",
+        "parent_id": "",
+        "kind": "母场景",
+        "name": "废弃工厂",
+        "description": "大门及厂房大厅；大厅中有废料堆与主打斗空地。",
+        "original": "S05 废弃工厂；大门、厂房大厅、废料堆、主打斗空地；旧机器、工业架、废料、散落物料\n〔源表2第6行〕",
+        "episodes": "第23—27集；关联段落至28集",
+        "source_refs": [
+          "T2R006"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": []
+      },
+      {
+        "id": "S05-01",
+        "parent_id": "S05",
+        "kind": "子场景",
+        "name": "大门",
+        "description": "旧机器、工业架、废料、散落物料",
+        "original": "S05 废弃工厂；大门、厂房大厅、废料堆、主打斗空地；旧机器、工业架、废料、散落物料\n〔源表2第6行〕",
+        "episodes": "第23—27集；关联段落至28集（子空间分配未列）",
+        "source_refs": [
+          "T2R006"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "LOC-0019"
+        ]
+      },
+      {
+        "id": "S05-02",
+        "parent_id": "S05",
+        "kind": "子场景",
+        "name": "厂房大厅",
+        "description": "旧机器、工业架、废料、散落物料",
+        "original": "S05 废弃工厂；大门、厂房大厅、废料堆、主打斗空地；旧机器、工业架、废料、散落物料\n〔源表2第6行〕",
+        "episodes": "第23—27集；关联段落至28集（子空间分配未列）",
+        "source_refs": [
+          "T2R006"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "LOC-0020"
+        ]
+      },
+      {
+        "id": "S06",
+        "parent_id": "",
+        "kind": "母场景",
+        "name": "私人会所",
+        "description": "门外和内部大厅；中央首位、两侧座席与出入口位置固定。",
+        "original": "S06 私人会所；门外、内部大厅、中央首位、两侧座席、出入口；会所桌椅、茶桌、主位座椅、装饰和照明\n〔源表2第7行〕",
+        "episodes": "第34—41集",
+        "source_refs": [
+          "T2R007"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": []
+      },
+      {
+        "id": "S06-01",
+        "parent_id": "S06",
+        "kind": "子场景",
+        "name": "门外",
+        "description": "桌椅、茶桌、主位座椅、装饰和照明",
+        "original": "S06 私人会所；门外、内部大厅、中央首位、两侧座席、出入口；会所桌椅、茶桌、主位座椅、装饰和照明\n〔源表2第7行〕",
+        "episodes": "第34—41集（子空间分配未列）",
+        "source_refs": [
+          "T2R007"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "LOC-0021"
+        ]
+      },
+      {
+        "id": "S06-02",
+        "parent_id": "S06",
+        "kind": "子场景",
+        "name": "内部大厅",
+        "description": "桌椅、茶桌、主位座椅、装饰和照明",
+        "original": "S06 私人会所；门外、内部大厅、中央首位、两侧座席、出入口；会所桌椅、茶桌、主位座椅、装饰和照明\n〔源表2第7行〕",
+        "episodes": "第34—41集（子空间分配未列）",
+        "source_refs": [
+          "T2R007"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "LOC-0022"
+        ]
+      },
+      {
+        "id": "S07",
+        "parent_id": "",
+        "kind": "母场景",
+        "name": "裁决殿",
+        "description": "内殿与殿外连接，高台、台阶、两侧门为固定空间锚点。",
+        "original": "S07 裁决殿；大殿、裁决高台、台阶、两侧门、殿外；石柱、固定台座、座椅、灯具、殿内纹饰\n〔源表2第8行〕",
+        "episodes": "第42—51集",
+        "source_refs": [
+          "T2R008"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": []
+      },
+      {
+        "id": "S07-01",
+        "parent_id": "S07",
+        "kind": "子场景",
+        "name": "内殿",
+        "description": "石柱、固定台座、座椅、灯具、纹饰",
+        "original": "S07 裁决殿；大殿、裁决高台、台阶、两侧门、殿外；石柱、固定台座、座椅、灯具、殿内纹饰\n〔源表2第8行〕",
+        "episodes": "第42—51集（子空间分配未列）",
+        "source_refs": [
+          "T2R008"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "LOC-0023"
+        ]
+      },
+      {
+        "id": "S07-02",
+        "parent_id": "S07",
+        "kind": "子场景",
+        "name": "殿外",
+        "description": "石柱、固定台座、座椅、灯具、纹饰",
+        "original": "S07 裁决殿；大殿、裁决高台、台阶、两侧门、殿外；石柱、固定台座、座椅、灯具、殿内纹饰\n〔源表2第8行〕",
+        "episodes": "第42—51集（子空间分配未列）",
+        "source_refs": [
+          "T2R008"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "LOC-0024"
+        ]
+      },
+      {
+        "id": "S08",
+        "parent_id": "",
+        "kind": "母场景",
+        "name": "咖啡馆",
+        "description": "室内卡座与门口采访区属于同一家店，外立面对应。",
+        "original": "S08 咖啡馆；室内卡座和门口采访区共用一家咖啡馆；门口使用同一外立面\n〔源表3第2行〕",
+        "episodes": "第2—3集",
+        "source_refs": [
+          "T3R002"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": []
+      },
+      {
+        "id": "S08-01",
+        "parent_id": "S08",
+        "kind": "子场景",
+        "name": "室内卡座",
+        "description": "沙发、咖啡桌、杯具、装饰、招牌；测谎仪与采访牌独立",
+        "original": "S08 咖啡馆；室内卡座和门口采访区共用一家咖啡馆；门口使用同一外立面\n〔源表3第2行〕",
+        "episodes": "第2—3集（子空间分配未列）",
+        "source_refs": [
+          "T3R002"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "LOC-0025"
+        ]
+      },
+      {
+        "id": "S08-02",
+        "parent_id": "S08",
+        "kind": "子场景",
+        "name": "门口采访区",
+        "description": "沙发、咖啡桌、杯具、装饰、招牌；测谎仪与采访牌独立",
+        "original": "S08 咖啡馆；室内卡座和门口采访区共用一家咖啡馆；门口使用同一外立面\n〔源表3第2行〕",
+        "episodes": "第2—3集（子空间分配未列）",
+        "source_refs": [
+          "T3R002"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "LOC-0026"
+        ]
+      },
+      {
+        "id": "S09",
+        "parent_id": "",
+        "kind": "母场景",
+        "name": "商场",
+        "description": "连续公共通道，按实际镜头补店面与走廊覆盖。",
+        "original": "S09 商场；一个连续公共通道，必要时按镜头扩展店面、走廊\n〔源表3第3行〕",
+        "episodes": "第3—5集",
+        "source_refs": [
+          "T3R003"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": []
+      },
+      {
+        "id": "S09-01",
+        "parent_id": "S09",
+        "kind": "子场景",
+        "name": "公共通道",
+        "description": "连续公共通道；店面走廊按实际镜头扩展，不凭空增加房间",
+        "original": "S09 商场；一个连续公共通道，必要时按镜头扩展店面、走廊\n〔源表3第3行〕",
+        "episodes": "第3—5集（子空间分配未列）",
+        "source_refs": [
+          "T3R003"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "LOC-0027"
+        ]
+      },
+      {
+        "id": "S10",
+        "parent_id": "",
+        "kind": "母场景",
+        "name": "少年江辰的家",
+        "description": "书房与密室通过墙上观察孔关联。",
+        "original": "S10 少年江辰的家；书房与密室必须通过墙上观察孔关联，不能分成无关场景\n〔源表3第4行〕",
+        "episodes": "第4集闪回",
+        "source_refs": [
+          "T3R004"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": []
+      },
+      {
+        "id": "S10-01",
+        "parent_id": "S10",
+        "kind": "子场景",
+        "name": "书房",
+        "description": "墙上观察孔连接书房与密室；其余陈设未提供。",
+        "original": "S10 少年江辰的家；书房与密室必须通过墙上观察孔关联，不能分成无关场景\n〔源表3第4行〕",
+        "episodes": "第4集闪回（子空间分配未列）",
+        "source_refs": [
+          "T3R004"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "LOC-0028"
+        ]
+      },
+      {
+        "id": "S10-02",
+        "parent_id": "S10",
+        "kind": "子场景",
+        "name": "密室",
+        "description": "墙上观察孔连接书房与密室；其余陈设未提供。",
+        "original": "S10 少年江辰的家；书房与密室必须通过墙上观察孔关联，不能分成无关场景\n〔源表3第4行〕",
+        "episodes": "第4集闪回（子空间分配未列）",
+        "source_refs": [
+          "T3R004"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "LOC-0029"
+        ]
+      },
+      {
+        "id": "S11",
+        "parent_id": "",
+        "kind": "母场景",
+        "name": "张阎王家",
+        "description": "“张阎王家/别墅大厅”归为一处，与苏家别墅不同。",
+        "original": "S11 张阎王家；“张阎王家”与“别墅大厅”合并；沙发、茶几融入场景\n〔源表3第5行〕",
+        "episodes": "第6、9集",
+        "source_refs": [
+          "T3R005"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": []
+      },
+      {
+        "id": "S11-01",
+        "parent_id": "S11",
+        "kind": "子场景",
+        "name": "大厅",
+        "description": "沙发、茶几、普通茶杯",
+        "original": "S11 张阎王家；“张阎王家”与“别墅大厅”合并；沙发、茶几融入场景\n〔源表3第5行〕",
+        "episodes": "第6、9集（子空间分配未列）",
+        "source_refs": [
+          "T3R005"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "LOC-0030"
+        ]
+      },
+      {
+        "id": "S11-01-01",
+        "parent_id": "S11-01",
+        "kind": "状态",
+        "name": "摔杯破碎状态",
+        "description": "茶杯与碎片归场景交互；第22集场所未明，不强归本场景。",
+        "original": "张阎王家；沙发、茶桌、普通茶杯；摔杯动作的破碎状态随镜头生成\n〔源表6第7行〕",
+        "episodes": "第9集关联；具体分场待原剧",
+        "source_refs": [
+          "T6R007"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": []
+      },
+      {
+        "id": "S12",
+        "parent_id": "",
+        "kind": "母场景",
+        "name": "反派密室（模板分组）",
+        "description": "美术模板分组；鲨鱼会面、面具女性汇报、银女修炼是否同屋未确认。",
+        "original": "3. 银女修炼密室、鲨鱼会议密室、神秘面具女性所在密室是否为同一实际地点，剧本未明确说明；在制作资产时可复用美术设计，但不能擅自认定为同一个房间。\n〔源段39〕",
+        "episodes": "第22、29、53集；对应关系未提供",
+        "source_refs": [
+          "P039"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": []
+      },
+      {
+        "id": "S12-01",
+        "parent_id": "S12",
+        "kind": "子场景",
+        "name": "鲨鱼会面（暂分）",
+        "description": "暂分登记以避免误合并；实体房间关系未确认，陈设未提供。",
+        "original": "3. 银女修炼密室、鲨鱼会议密室、神秘面具女性所在密室是否为同一实际地点，剧本未明确说明；在制作资产时可复用美术设计，但不能擅自认定为同一个房间。\n〔源段39〕",
+        "episodes": "第22、29、53集；对应未列",
+        "source_refs": [
+          "P039"
+        ],
+        "evidence": "合理推断",
+        "review": "待确认",
+        "user_notes": "",
+        "legacy_ids": [
+          "LOC-0031"
+        ]
+      },
+      {
+        "id": "S12-02",
+        "parent_id": "S12",
+        "kind": "子场景",
+        "name": "面具女性汇报（暂分）",
+        "description": "暂分登记以避免误合并；实体房间关系未确认，陈设未提供。",
+        "original": "3. 银女修炼密室、鲨鱼会议密室、神秘面具女性所在密室是否为同一实际地点，剧本未明确说明；在制作资产时可复用美术设计，但不能擅自认定为同一个房间。\n〔源段39〕",
+        "episodes": "第22、29、53集；对应未列",
+        "source_refs": [
+          "P039"
+        ],
+        "evidence": "合理推断",
+        "review": "待确认",
+        "user_notes": "",
+        "legacy_ids": [
+          "LOC-0032"
+        ]
+      },
+      {
+        "id": "S12-03",
+        "parent_id": "S12",
+        "kind": "子场景",
+        "name": "银女修炼（暂分）",
+        "description": "暂分登记以避免误合并；实体房间关系未确认，陈设未提供。",
+        "original": "3. 银女修炼密室、鲨鱼会议密室、神秘面具女性所在密室是否为同一实际地点，剧本未明确说明；在制作资产时可复用美术设计，但不能擅自认定为同一个房间。\n〔源段39〕",
+        "episodes": "第22、29、53集；对应未列",
+        "source_refs": [
+          "P039"
+        ],
+        "evidence": "合理推断",
+        "review": "待确认",
+        "user_notes": "",
+        "legacy_ids": [
+          "LOC-0033"
+        ]
+      },
+      {
+        "id": "S13",
+        "parent_id": "",
+        "kind": "母场景",
+        "name": "医院",
+        "description": "手术室门口与病房是两个子空间，装修统一但不混为同一房间。",
+        "original": "S13 医院；手术室门口和病房作为两个实际子空间，装修语言统一\n〔源表3第7行〕",
+        "episodes": "第28—31集",
+        "source_refs": [
+          "T3R007"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": []
+      },
+      {
+        "id": "S13-01",
+        "parent_id": "S13",
+        "kind": "子场景",
+        "name": "手术室门口",
+        "description": "普通病床、医疗器械、走廊设施；按区域分配",
+        "original": "S13 医院；手术室门口和病房作为两个实际子空间，装修语言统一\n〔源表3第7行〕",
+        "episodes": "第28—31集（子空间分配未列）",
+        "source_refs": [
+          "T3R007"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "LOC-0034"
+        ]
+      },
+      {
+        "id": "S13-02",
+        "parent_id": "S13",
+        "kind": "子场景",
+        "name": "病房",
+        "description": "普通病床、医疗器械、走廊设施；按区域分配",
+        "original": "S13 医院；手术室门口和病房作为两个实际子空间，装修语言统一\n〔源表3第7行〕",
+        "episodes": "第28—31集（子空间分配未列）",
+        "source_refs": [
+          "T3R007"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "LOC-0035"
+        ]
+      },
+      {
+        "id": "S14",
+        "parent_id": "",
+        "kind": "母场景",
+        "name": "墓地",
+        "description": "合葬墓、墓道与植被构成固定环境，雨天另记状态。",
+        "original": "S14 墓地；无名合葬墓和周边墓道构成固定构图；雨天为环境状态\n〔源表3第8行〕",
+        "episodes": "第31—32集",
+        "source_refs": [
+          "T3R008"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": []
+      },
+      {
+        "id": "S14-01",
+        "parent_id": "S14",
+        "kind": "子场景",
+        "name": "合葬墓与墓道",
+        "description": "墓碑、墓道、背景植被",
+        "original": "S14 墓地；无名合葬墓和周边墓道构成固定构图；雨天为环境状态\n〔源表3第8行〕",
+        "episodes": "第31—32集（子空间分配未列）",
+        "source_refs": [
+          "T3R008"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "LOC-0036"
+        ]
+      },
+      {
+        "id": "S14-01-01",
+        "parent_id": "S14-01",
+        "kind": "状态",
+        "name": "雨天状态",
+        "description": "同一墓地雨天环境；雨强、积水与湿润程度未提供。",
+        "original": "S14 墓地；无名合葬墓和周边墓道构成固定构图；雨天为环境状态\n〔源表3第8行〕",
+        "episodes": "第31—32集",
+        "source_refs": [
+          "T3R008"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": []
+      },
+      {
+        "id": "S15",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "野外空地",
+        "description": "地形与树木参考；审问、伏击段保持人物站位及射击方向。",
+        "original": "T02 野外空地；建立一个地形参考画面即可；审问与伏击连续戏需锁定树木、人物站位和射击方向。\n〔源表4第3行〕",
+        "episodes": "第27—28集",
+        "source_refs": [
+          "T4R003"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "LOC-0037"
+        ]
+      }
+    ],
+    "道具": [
+      {
+        "id": "P01",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "西王母阴玉",
+        "description": "阴玉与苏小菲身体融合；历史实物与身体能量表现分开，不默认可取出玉佩。",
+        "original": "P01 西王母玉（阴/阳）；阴玉与苏小菲身体融合；阳玉关联江辰。分实物历史状态和身体能量表现，不默认是可随手取出的玉佩。\n〔源表8第2行〕",
+        "episodes": "第1集提及，实体出现集未明",
+        "source_refs": [
+          "T8R002"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "PRP-0001"
+        ]
+      },
+      {
+        "id": "P02",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "西王母阳玉",
+        "description": "与江辰关联的阳玉；形制与实体出现时点未提供。",
+        "original": "P01 西王母玉（阴/阳）；阴玉与苏小菲身体融合；阳玉关联江辰。分实物历史状态和身体能量表现，不默认是可随手取出的玉佩。\n〔源表8第2行〕",
+        "episodes": "第1集提及，实体出现集未明",
+        "source_refs": [
+          "T8R002"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "PRP-0002"
+        ]
+      },
+      {
+        "id": "P03",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "孤狼银色半面具",
+        "description": "江辰/孤狼佩戴的银色半面具；摘戴保持脸型一致。",
+        "original": "P02 孤狼银色半面具；佩戴、侧面、摘下面具，江辰脸型不变。\n〔源表8第3行〕",
+        "episodes": "第1集",
+        "source_refs": [
+          "T8R003"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "PRP-0003"
+        ]
+      },
+      {
+        "id": "P04",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "昆仑琉璃灯",
+        "description": "碧绿色、鸡蛋大小；实物与能量共鸣表现分开。",
+        "original": "P03 昆仑琉璃灯＋玉盒；碧绿色、鸡蛋大小的琉璃灯；玉盒作配套容器；另做能量/共鸣效果。\n〔源表8第4行〕",
+        "episodes": "第47集",
+        "source_refs": [
+          "T8R004"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "PRP-0004"
+        ]
+      },
+      {
+        "id": "P05",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "琉璃灯配套玉盒",
+        "description": "琉璃灯配套容器，与灯分为两件；尺寸及开合方式未提供。",
+        "original": "P03 昆仑琉璃灯＋玉盒；碧绿色、鸡蛋大小的琉璃灯；玉盒作配套容器；另做能量/共鸣效果。\n〔源表8第4行〕",
+        "episodes": "第47集",
+        "source_refs": [
+          "T8R004"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "PRP-0005"
+        ]
+      },
+      {
+        "id": "P06",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "裁决令",
+        "description": "与至尊令不同的令牌；具体符号和材质尚无原文细节。",
+        "original": "P04 裁决令；与至尊令区分造型，固定符号/材质。\n〔源表8第5行〕",
+        "episodes": "第39集提及",
+        "source_refs": [
+          "T8R005"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "PRP-0006"
+        ]
+      },
+      {
+        "id": "P07",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "至尊令",
+        "description": "身份反转令牌；真令、假令与破碎形态需区分。",
+        "original": "P05 至尊令；真令、假令、破碎状态；关键身份反转。\n〔源表8第6行〕",
+        "episodes": "第54集关联",
+        "source_refs": [
+          "T8R006"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "PRP-0007",
+          "PRP-0008"
+        ]
+      },
+      {
+        "id": "P07-01",
+        "parent_id": "P07",
+        "kind": "状态",
+        "name": "真令",
+        "description": "真实令牌实物，与假令分开，不因同款外观合并实物。",
+        "original": "P05 至尊令；真令、假令、破碎状态；关键身份反转。\n〔源表8第6行〕",
+        "episodes": "第54集关联；具体集数未提供",
+        "source_refs": [
+          "T8R006"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": []
+      },
+      {
+        "id": "P07-02",
+        "parent_id": "P07",
+        "kind": "状态",
+        "name": "假令",
+        "description": "仿冒令牌实物；与真令的可见差异需原剧补充。",
+        "original": "P05 至尊令；真令、假令、破碎状态；关键身份反转。\n〔源表8第6行〕",
+        "episodes": "第54集关联；具体集数未提供",
+        "source_refs": [
+          "T8R006"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": []
+      },
+      {
+        "id": "P07-03",
+        "parent_id": "P07",
+        "kind": "状态",
+        "name": "破碎形态（归属待核）",
+        "description": "清单要求破碎状态，但未说明破碎的是哪一枚。",
+        "original": "P05 至尊令；真令、假令、破碎状态；关键身份反转。\n〔源表8第6行〕",
+        "episodes": "第54集关联；具体集数未提供",
+        "source_refs": [
+          "T8R006"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": []
+      },
+      {
+        "id": "P08",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "苏小菲耳环",
+        "description": "可摘下用于攻击，再完好戴回；式样、尺寸和数量未提供。",
+        "original": "P06 苏小菲耳环；耳上→摘下→手中攻击→完好→重新戴回，跨镜外观一致。\n〔源表8第7行〕",
+        "episodes": "第19集",
+        "source_refs": [
+          "T8R007"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "PRP-0009"
+        ]
+      },
+      {
+        "id": "P08-01",
+        "parent_id": "P08",
+        "kind": "状态",
+        "name": "摘下/手持形态",
+        "description": "从耳上摘下并手持攻击；保持同一件饰物。",
+        "original": "P06 苏小菲耳环；耳上→摘下→手中攻击→完好→重新戴回，跨镜外观一致。\n〔源表8第7行〕",
+        "episodes": "第19集",
+        "source_refs": [
+          "T8R007"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": []
+      },
+      {
+        "id": "P08-02",
+        "parent_id": "P08",
+        "kind": "状态",
+        "name": "攻击后完好形态",
+        "description": "攻击后保持完好并可重新戴回，不擅自加破损。",
+        "original": "P06 苏小菲耳环；耳上→摘下→手中攻击→完好→重新戴回，跨镜外观一致。\n〔源表8第7行〕",
+        "episodes": "第19集",
+        "source_refs": [
+          "T8R007"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": []
+      },
+      {
+        "id": "P09",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "周天钢铁拳套",
+        "description": "周天的钢铁拳套，需与耳环攻击尺寸和方向匹配。",
+        "original": "P07 周天钢铁拳套；完整、受击、裂纹、破裂；需与耳环尺寸和攻击方向匹配。\n〔源表8第8行〕",
+        "episodes": "第19集",
+        "source_refs": [
+          "T8R008"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "PRP-0010"
+        ]
+      },
+      {
+        "id": "P09-01",
+        "parent_id": "P09",
+        "kind": "状态",
+        "name": "裂纹状态",
+        "description": "受击后出现裂纹，裂纹位置和范围由原剧/镜头补充。",
+        "original": "P07 周天钢铁拳套；完整、受击、裂纹、破裂；需与耳环尺寸和攻击方向匹配。\n〔源表8第8行〕",
+        "episodes": "第19集",
+        "source_refs": [
+          "T8R008"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": []
+      },
+      {
+        "id": "P09-02",
+        "parent_id": "P09",
+        "kind": "状态",
+        "name": "破裂状态",
+        "description": "由裂纹进入破裂，碎片与接触结果保持连续。",
+        "original": "P07 周天钢铁拳套；完整、受击、裂纹、破裂；需与耳环尺寸和攻击方向匹配。\n〔源表8第8行〕",
+        "episodes": "第19集",
+        "source_refs": [
+          "T8R008"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": []
+      },
+      {
+        "id": "P10",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "血手红手套",
+        "description": "标志性血红手套，锁定左右手及接触动作。",
+        "original": "P08 血手红手套；标志性血红色手套，固定左右手与接触动作。\n〔源表8第9行〕",
+        "episodes": "第9集",
+        "source_refs": [
+          "T8R009"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "PRP-0011"
+        ]
+      },
+      {
+        "id": "P11",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "银女飞刀",
+        "description": "有三把/九把的镜头要求，不等于确认共九件实物；刀型未提供。",
+        "original": "P09 银女飞刀；三把/九把，黑气附着、金光转化与回射。\n〔源表8第10行〕",
+        "episodes": "第58集",
+        "source_refs": [
+          "T8R010"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "PRP-0012"
+        ]
+      },
+      {
+        "id": "P11-01",
+        "parent_id": "P11",
+        "kind": "状态",
+        "name": "黑气附着状态",
+        "description": "同组飞刀附着黑气；数量按具体镜头核对。",
+        "original": "P09 银女飞刀；三把/九把，黑气附着、金光转化与回射。\n〔源表8第10行〕",
+        "episodes": "第58集",
+        "source_refs": [
+          "T8R010"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": []
+      },
+      {
+        "id": "P11-02",
+        "parent_id": "P11",
+        "kind": "状态",
+        "name": "金光转化状态",
+        "description": "黑气转为金光并回射，形态与运动承接一致。",
+        "original": "P09 银女飞刀；三把/九把，黑气附着、金光转化与回射。\n〔源表8第10行〕",
+        "episodes": "第58集",
+        "source_refs": [
+          "T8R010"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": []
+      },
+      {
+        "id": "P12",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "无人机",
+        "description": "固定同型号，悬停、飞行及监控镜头外观一致。",
+        "original": "P10 无人机；固定同一型号，悬停、飞行、监控镜头一致。\n〔源表8第11行〕",
+        "episodes": "第4集",
+        "source_refs": [
+          "T8R011"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "PRP-0013"
+        ]
+      },
+      {
+        "id": "P13",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "测谎仪",
+        "description": "江辰佩戴后摘下递还，指示器与装置连接关系连续。",
+        "original": "P11 测谎仪；佩戴在江辰身上、指示器、摘下递还，装置逻辑连续。\n〔源表8第12行〕",
+        "episodes": "第2集",
+        "source_refs": [
+          "T8R012"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "PRP-0014"
+        ]
+      },
+      {
+        "id": "P14",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "烫金请柬",
+        "description": "烫金文书，有飞入、接住、展开及阅读动作；正文未提供。",
+        "original": "P12 烫金请柬；飞入、接住、展开、阅读，版式和文字固定。\n〔源表8第13行〕",
+        "episodes": "第33集",
+        "source_refs": [
+          "T8R013"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "PRP-0015"
+        ]
+      },
+      {
+        "id": "P15",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "手机关键屏幕内容",
+        "description": "短信、IP、威胁、情报等可读内容，具体文字待原剧；与实体手机分开。",
+        "original": "P13 手机关键屏幕；短信、IP、威胁、情报等准确内容；屏幕可采用后期合成。\n〔源表8第14行〕",
+        "episodes": "多集未逐条列明",
+        "source_refs": [
+          "T8R014"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "PRP-0016"
+        ]
+      },
+      {
+        "id": "P16",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "微型计算机",
+        "description": "手掌大小，与手机经数据线连接，接口和屏幕保持一致。",
+        "original": "P14 微型计算机；手掌大小、与手机连接，固定数据线接口和屏幕。\n〔源表8第15行〕",
+        "episodes": "第14集",
+        "source_refs": [
+          "T8R015"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "PRP-0017"
+        ]
+      },
+      {
+        "id": "P17",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "匕首",
+        "description": "武器；普通与特写型号关系待核",
+        "original": "P15 特殊武器组；匕首、铁棍、弩箭等分属不同武器；关键近景各自统一外观。\n〔源表8第16行〕",
+        "episodes": "第6集起，具体见第6—7/24—25集",
+        "source_refs": [
+          "T8R016"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "PRP-0018"
+        ]
+      },
+      {
+        "id": "P18",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "铁棍",
+        "description": "武器，不能与匕首/弩箭并成一种",
+        "original": "P15 特殊武器组；匕首、铁棍、弩箭等分属不同武器；关键近景各自统一外观。\n〔源表8第16行〕",
+        "episodes": "第6集起，具体集场待核",
+        "source_refs": [
+          "T8R016"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "PRP-0019"
+        ]
+      },
+      {
+        "id": "P19",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "弩箭",
+        "description": "投射武器；数量未明确",
+        "original": "P15 特殊武器组；匕首、铁棍、弩箭等分属不同武器；关键近景各自统一外观。\n〔源表8第16行〕",
+        "episodes": "第23—28集关联，首次未明确",
+        "source_refs": [
+          "T8R016"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "PRP-0020"
+        ]
+      },
+      {
+        "id": "P20",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "棒棒糖",
+        "description": "人物习惯物件；次数不等于件数",
+        "original": "棒棒糖；苏小菲人物常规习惯道具，可放入其日常造型；不必单独建模\n〔源表7第2行〕",
+        "episodes": "第2、3、9集等",
+        "source_refs": [
+          "T7R002"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "PRP-0021"
+        ]
+      },
+      {
+        "id": "P21",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "购物袋",
+        "description": "携带物；锁定连续段数量与手持位置",
+        "original": "购物袋；随江辰拎包动作生成，保持该连续段数量与手持位置\n〔源表7第3行〕",
+        "episodes": "第6集",
+        "source_refs": [
+          "T7R003"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "PRP-0022"
+        ]
+      },
+      {
+        "id": "P22",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "毛巾",
+        "description": "受伤护理互动",
+        "original": "毛巾、冰袋；随张阎王受伤妆造生成\n〔源表7第4行〕",
+        "episodes": "第6集",
+        "source_refs": [
+          "T7R004"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "PRP-0023"
+        ]
+      },
+      {
+        "id": "P23",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "冰袋",
+        "description": "受伤护理互动",
+        "original": "毛巾、冰袋；随张阎王受伤妆造生成\n〔源表7第4行〕",
+        "episodes": "第6集",
+        "source_refs": [
+          "T7R004"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "PRP-0024"
+        ]
+      },
+      {
+        "id": "P24",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "玫瑰花束",
+        "description": "表白物件；跨镜同束",
+        "original": "玫瑰花束；校园表白镜头联动生成，跨镜统一同一束花\n〔源表7第6行〕",
+        "episodes": "第16—17集",
+        "source_refs": [
+          "T7R006"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "PRP-0025"
+        ]
+      },
+      {
+        "id": "P25",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "水桶",
+        "description": "泼水互动",
+        "original": "水桶；随泼水动作生成\n〔源表7第7行〕",
+        "episodes": "第13集",
+        "source_refs": [
+          "T7R007"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "PRP-0026"
+        ]
+      },
+      {
+        "id": "P26",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "雨伞",
+        "description": "墓地人物携带",
+        "original": "雨伞、鲜花；墓地场景中随人物一起生成\n〔源表7第8行〕",
+        "episodes": "第31—32集",
+        "source_refs": [
+          "T7R008"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "PRP-0027"
+        ]
+      },
+      {
+        "id": "P27",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "祭扫鲜花",
+        "description": "墓地人物携带；不与表白花束合并",
+        "original": "雨伞、鲜花；墓地场景中随人物一起生成\n〔源表7第8行〕",
+        "episodes": "第31—32集",
+        "source_refs": [
+          "T7R008"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "PRP-0028"
+        ]
+      },
+      {
+        "id": "P28",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "普通手机",
+        "description": "实体终端；屏幕内容另项关联",
+        "original": "普通手机及数据线；手机外壳可随人物；屏幕消息另列核心屏幕资产\n〔源表7第9行〕",
+        "episodes": "多集，未逐条列明",
+        "source_refs": [
+          "T7R009"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "PRP-0029"
+        ]
+      },
+      {
+        "id": "P29",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "数据线",
+        "description": "连接手机与微型计算机",
+        "original": "普通手机及数据线；手机外壳可随人物；屏幕消息另列核心屏幕资产\n〔源表7第9行〕",
+        "episodes": "第14集",
+        "source_refs": [
+          "T7R009"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "PRP-0030"
+        ]
+      },
+      {
+        "id": "P30",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "通讯耳机",
+        "description": "佩戴配件",
+        "original": "通讯耳机；绑定江辰孤狼人物造型\n〔源表7第10行〕",
+        "episodes": "第1集起",
+        "source_refs": [
+          "T7R010"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "PRP-0031"
+        ]
+      },
+      {
+        "id": "P31",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "硬币",
+        "description": "弹射物，统一动作不逐枚建设计",
+        "original": "硬币、石子；不为每颗建立独立道具；统一弹射、命中、飞行的动作与特效\n〔源表7第12行〕",
+        "episodes": "第4集起多次",
+        "source_refs": [
+          "T7R012"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "PRP-0032"
+        ]
+      },
+      {
+        "id": "P32",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "石子",
+        "description": "弹射物，与硬币分材质",
+        "original": "硬币、石子；不为每颗建立独立道具；统一弹射、命中、飞行的动作与特效\n〔源表7第12行〕",
+        "episodes": "第4集起多次",
+        "source_refs": [
+          "T7R012"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "PRP-0033"
+        ]
+      },
+      {
+        "id": "P33",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "工作文件",
+        "description": "普通文书；准确文字需求时另补内容",
+        "original": "普通工作文件、书稿；在相关工作场景随镜头生成，若需准确文字则后期贴图\n〔源表7第13行〕",
+        "episodes": "多集",
+        "source_refs": [
+          "T7R013"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "PRP-0034"
+        ]
+      },
+      {
+        "id": "P34",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "书稿",
+        "description": "稿件；不因普通文件相近而误合并",
+        "original": "普通工作文件、书稿；在相关工作场景随镜头生成，若需准确文字则后期贴图\n〔源表7第13行〕",
+        "episodes": "多集",
+        "source_refs": [
+          "T7R013"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "PRP-0035"
+        ]
+      },
+      {
+        "id": "P35",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "寻找路人英雄广告牌",
+        "description": "采访展示物，非咖啡馆固定家具；已知文案片段：“寻找路人英雄”；全版文案未提供",
+        "original": "第2—3集 咖啡馆；卡座、沙发、咖啡杯、门外立面；P11测谎仪；“寻找路人英雄”广告牌按镜头提供准确文案\n〔源表10第3行〕",
+        "episodes": "第2—3集",
+        "source_refs": [
+          "T10R003"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "PRP-0036"
+        ]
+      },
+      {
+        "id": "P36",
+        "parent_id": "",
+        "kind": "资产",
+        "name": "绑缚绳索",
+        "description": "挣扎/解救特写按实际镜头锁定",
+        "original": "国外基地；烧烤架、桌椅、食物、酒瓶、绑架柱、杂物；绳索若进入挣扎/解救特写，随镜头锁定\n〔源表6第2行〕",
+        "episodes": "第1集",
+        "source_refs": [
+          "T6R002"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": [
+          "PRP-0037"
+        ]
+      },
+      {
+        "id": "T01",
+        "parent_id": "",
+        "kind": "载具",
+        "name": "直升机（载具）",
+        "description": "机身、座舱与舱门方向统一；具体型号未提供。",
+        "original": "T01 车辆与车内；并入交通工具资产。车内外、座椅、开门方向须对应；直升机/保姆车/豪车不能任意混用。\n〔源表4第2行〕",
+        "episodes": "第1集",
+        "source_refs": [
+          "T4R002"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": []
+      },
+      {
+        "id": "T02",
+        "parent_id": "",
+        "kind": "载具",
+        "name": "保姆车（载具）",
+        "description": "车内外、座椅和车门对应，不与豪车混用。",
+        "original": "T01 车辆与车内；并入交通工具资产。车内外、座椅、开门方向须对应；直升机/保姆车/豪车不能任意混用。\n〔源表4第2行〕",
+        "episodes": "第3集",
+        "source_refs": [
+          "T4R002"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": []
+      },
+      {
+        "id": "T03",
+        "parent_id": "",
+        "kind": "载具",
+        "name": "豪车（载具）",
+        "description": "车型、实例与归属待原剧，不能把多辆车当同一辆。",
+        "original": "T01 车辆与车内；并入交通工具资产。车内外、座椅、开门方向须对应；直升机/保姆车/豪车不能任意混用。\n〔源表4第2行〕",
+        "episodes": "第9集起",
+        "source_refs": [
+          "T4R002"
+        ],
+        "evidence": "原文明示",
+        "review": "不适用",
+        "user_notes": "",
+        "legacy_ids": []
+      }
+    ]
+  }
+}

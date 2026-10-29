@@ -1,0 +1,26 @@
+{
+  "skills": [
+    {
+      "skill": "script-asset-breakdown",
+      "quick_validate": true
+    },
+    {
+      "skill": "cyber-character",
+      "quick_validate": true
+    },
+    {
+      "skill": "cyber-scene",
+      "quick_validate": true
+    },
+    {
+      "skill": "cyber-prop",
+      "quick_validate": true
+    }
+  ],
+  "installed_files_equal": 9,
+  "original_packages_unchanged": true,
+  "source_docx_unchanged": true,
+  "workbook_builder_and_blank_template_unchanged": true,
+  "new_document_links_valid": 23,
+  "machine_tests": 16
+}

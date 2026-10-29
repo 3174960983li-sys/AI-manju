@@ -1,0 +1,4 @@
+interface:
+  display_name: "剧本资产拆解"
+  short_description: "提取剧本角色、群众、服装状态、场景状态与道具，制作可追溯的Excel资产需求清单"
+  default_prompt: "使用 $script-asset-breakdown 拆解我提供的剧本，先确认本次集场范围，再输出角色、场景与道具的Excel资产需求清单。"

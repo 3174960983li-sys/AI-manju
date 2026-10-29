@@ -1,0 +1,22 @@
+{
+  "zip": "E:\\AI漫剧\\04_项目管理\\02_任务记录\\剧本资产拆解_首轮小样\\剧本资产拆解_script-asset-breakdown_V1.0_完整包.zip",
+  "zip_sha256": "4538171b8bcaf1774ff4fa97e5f38f64fa2a913de011757db06c53eda22cae5e",
+  "files": {
+    "SKILL.md": "f8a9d2f49ba1e91acc6149428b2bdb6239496ef02a3f7fb2ad969d43d28507e8",
+    "agents\\openai.yaml": "3f2c58d63a147f664563127b722582f788ca75e098d340d978b40f72dabb5e02",
+    "assets\\blank-data.json": "0f1d60bf20f641987340d48f2f3a7da065e1eed54010fabc05681337ccad0bbe",
+    "assets\\sample-data.json": "00065b712033fc370aa3e802e7e6e33215518b631b6343def0917fe48293cdbf",
+    "assets\\sample-script.md": "e5515127824dcbffe399f4cbe124d8002f043d5fd6bd6a5d0f3ae6474020b814",
+    "assets\\schema.json": "6f1a8d68b60e086047df897868a8b36e3a30678922d48406f1a7d277a82f6b4d",
+    "assets\\剧本资产清单_空白模板.xlsx": "0dae7aba08567de6bb6d88a908a2736c834af85685518fd0ff6d5ec1512c1853",
+    "assets\\剧本资产清单_边界案例.xlsx": "d1129e7717854fa1d737797ed05a3a899fa9de7fc549ce6af0a874b9d2726655",
+    "references\\boundary-cases.md": "bffe8883ee9a96b991e8ab1d4b7f90c938351bb007b6ce4c5536e8e8258007b4",
+    "references\\identification.md": "33f83f122fe5357e7c547ac760bcf41be6a21497ce402aa411240ae6d1afc20f",
+    "references\\update-handoff.md": "31bcb052287fe5f0671b75decb055a11b4944bd9024a13dd62e5719a580bfd94",
+    "references\\workbook.md": "f29a99fd3d037203c306a0e0668671d83b6eb5fdbdea30e2430f5fa4e4df232f",
+    "scripts\\add_links.py": "7794485b9a660d1195b8f395ae537fe2c3ae6cf0259fd07b874d155a63dabb24",
+    "scripts\\build_workbook.mjs": "36c64e4357c17c9eaa5cc00339412bbc614df2dab3476f7dcd89277963968054",
+    "scripts\\check_data.py": "a7922271d2d01b4f621f6117402a632dbea6f75b38b6fd890f8a8329567115dd",
+    "scripts\\merge_data.py": "550657891f017eaa5646d4802cd9d6ffd2c8167c28fa279d8c779d80d7cb8482"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-24",
+  "root": "E:\\AI漫剧\\BK05编剧资料",
+  "before_count": 776,
+  "deleted_count": 494,
+  "remaining_count": 282,
+  "deleted_bytes": 7054681861,
+  "duplicate_groups": 282,
+  "audit": "E:\\AI漫剧\\04_项目管理\\02_任务记录\\文件整理记录\\BK05去重_2026-10-24_批次01.csv",
+  "verification": "Full SHA256 grouping; byte-by-byte equality before deletion; final keeper hashes and exact survivor set checked. Only files inside specified root were deleted.",
+  "status": "complete",
+  "index_update": {
+    "current_csv_rows": 282,
+    "current_markdown_links_checked": 308,
+    "broken_current_links": 0,
+    "previous_indices": "E:\\AI漫剧\\05_文件整理\\03_停用归档\\管理入口历史\\BK05去重前_2026-10-24"
+  }
+}

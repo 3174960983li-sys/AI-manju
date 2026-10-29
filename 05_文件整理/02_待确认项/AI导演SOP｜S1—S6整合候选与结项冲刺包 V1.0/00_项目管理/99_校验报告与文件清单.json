@@ -1,0 +1,219 @@
+{
+  "generated_on": "2026-10-23",
+  "status": "候选文档整合，未整体结项",
+  "summary": {
+    "p2_snapshot_count": 13,
+    "p3_core_count": 6,
+    "s5_special_count": 4,
+    "real_images_included": 3,
+    "step_count": 46,
+    "step_counts": {
+      "S1": 7,
+      "S2": 6,
+      "S3": 9,
+      "S4": 9,
+      "S5": 8,
+      "S6": 7
+    },
+    "p3_mentions": {
+      "S1": {
+        "expected": 7,
+        "mentioned": 7
+      },
+      "S2": {
+        "expected": 6,
+        "mentioned": 6
+      },
+      "S3": {
+        "expected": 9,
+        "mentioned": 9
+      },
+      "S4": {
+        "expected": 9,
+        "mentioned": 9
+      },
+      "S5": {
+        "expected": 8,
+        "mentioned": 8
+      },
+      "S6": {
+        "expected": 7,
+        "mentioned": 7
+      }
+    },
+    "same_p2_sha_as_archive": true,
+    "status": "DOCS_INTEGRATED_PENDING_APPROVAL_AND_REAL_VALIDATION"
+  },
+  "files": [
+    {
+      "name": "04_项目管理/00_README_本期成果与结项状态.md",
+      "bytes": 1989,
+      "sha256": "8afea530119ab010b873a8c4f88ca6770c00d0e2e78c272c580a7d1d689cfc2c"
+    },
+    {
+      "name": "04_项目管理/01_唯一权威索引与46步表.md",
+      "bytes": 9092,
+      "sha256": "af44c3884da5e010a87ebc3f59ec0837a8880cd91e289b69729b10d2a331eb82"
+    },
+    {
+      "name": "04_项目管理/02_结项八项门槛_证据及当前状态.md",
+      "bytes": 2519,
+      "sha256": "2c50a07f1951737f768d81a24159cde137b10791626a922982dc9599a8bbdf27"
+    },
+    {
+      "name": "04_项目管理/03_有限范围真实验证与止损策略.md",
+      "bytes": 3409,
+      "sha256": "97a540be5b2d70440f5c1bca183efec3c7cf66cddc5a6f07d0b071702da9ac2f"
+    },
+    {
+      "name": "04_项目管理/04_一次性批准与门记录.md",
+      "bytes": 1531,
+      "sha256": "f7f3f5eaa8a8fc21b66e1140b01004cdb575c9fa0e59fcb758ed53c6ce66d02e"
+    },
+    {
+      "name": "04_项目管理/05_历史缺陷与回退台账.md",
+      "bytes": 2332,
+      "sha256": "26f5b4a5d2c39ed82e4e822a3b911904a24cebca385fbcc43bff484ac7b7ed24"
+    },
+    {
+      "name": "01_P2结构模板_只读/00_README_模板启用与文件组织.md",
+      "bytes": 4354,
+      "sha256": "ded70a3246cae0743e8f51418832451ab275726d196ba2821a71bdefe3d55ef2"
+    },
+    {
+      "name": "01_P2结构模板_只读/01_修订映射与差异清单_V1.1.md",
+      "bytes": 1705,
+      "sha256": "98a002955b130f39ddd4ab8249dd35003b6b3c6775b774d58f7760479c7d2eab"
+    },
+    {
+      "name": "01_P2结构模板_只读/P2-04_交付模板字段与使用规则_主规范_V1.1.md",
+      "bytes": 34464,
+      "sha256": "a503a41d3f78cc8d61cf7a44f307d2e1f809924573705138ed5a105f5b89fa52"
+    },
+    {
+      "name": "01_P2结构模板_只读/T01_项目基线与解读主卡_A01-A05.md",
+      "bytes": 4521,
+      "sha256": "9d40cdc32b933a354468492ab5abb860256dd0d2270735b93661a6fc64eba955"
+    },
+    {
+      "name": "01_P2结构模板_只读/T02_导演视听定位与代表场次核验_A06-A08.md",
+      "bytes": 4034,
+      "sha256": "5363a919251b00712fe6352c5891966b5f7cf96c793bcac39ce7b05eb1e37afe"
+    },
+    {
+      "name": "01_P2结构模板_只读/T03_年代证据与六组视觉锚点_A07.md",
+      "bytes": 3174,
+      "sha256": "48b912bfb494825611b75ce6f362ff1136ff0c4e810d1d87931356ffc697e5ec"
+    },
+    {
+      "name": "01_P2结构模板_只读/T04_单场导演分析与空间表演_A09-A11.md",
+      "bytes": 4696,
+      "sha256": "ed86a7c8b7bd3999e1fd93a9d06964d7de00ab4176c9d2070ed04449009fceed"
+    },
+    {
+      "name": "01_P2结构模板_只读/T05_镜头方案七栏分镜与需求_A12-A15.md",
+      "bytes": 3931,
+      "sha256": "9bca43cacd193b73deb7a3f09e691e19ca3ee1547f3408b602e5ea4463b0095a"
+    },
+    {
+      "name": "01_P2结构模板_只读/T06_S5资产需求与真实引用交接_A16-A17.md",
+      "bytes": 3934,
+      "sha256": "59e678dbe9ed83d03e8ce1eb8b6658ddb79c66f67a26ff28fe0556d835df1106"
+    },
+    {
+      "name": "01_P2结构模板_只读/T07_A19_六模块纯文本执行稿_空白.txt",
+      "bytes": 1922,
+      "sha256": "7aeb4f44f416705cd3e0dd12d265f505e449284effc91f1a746131eb40f2b61c"
+    },
+    {
+      "name": "01_P2结构模板_只读/T07_生成单元索引与风险验证_A18-A20.md",
+      "bytes": 3854,
+      "sha256": "1ac9facd3e2e402baf470db938b313c32371ac4194f8253ae6c040116d0f24e2"
+    },
+    {
+      "name": "01_P2结构模板_只读/T08_候选验看与可用镜头移交_A21-A22.md",
+      "bytes": 3126,
+      "sha256": "9c0fce04025def23734fbdcf3cb6a9060a38afaf4b59e9b3b066c657447c96dc"
+    },
+    {
+      "name": "01_P2结构模板_只读/T09_G1-G6工作门与版本变更簿.md",
+      "bytes": 7119,
+      "sha256": "17f2a4e1a92362e0172bb9bcda8206af9740e07cc377cfbcd0667be96c6db5f0"
+    },
+    {
+      "name": "02_P3六阶段手册_只读/S1_01_P3-S1_项目接收与剧本生产需求确认_完整操作手册_V1.0.md",
+      "bytes": 30972,
+      "sha256": "5c93e78c524604d2218b4c8b874d00fb4ba622d3a7d0d56a331ec86ff44b5864"
+    },
+    {
+      "name": "02_P3六阶段手册_只读/S2_01_P3-S2_全剧导演风格与世界视觉基准_完整操作手册_V1.0.md",
+      "bytes": 34339,
+      "sha256": "b6c0fcd07ce9ad99c9cfda93411146e861843f5dfb64d977c5cf63eee6ef64b1"
+    },
+    {
+      "name": "02_P3六阶段手册_只读/S3_01_P3-S3_单场戏导演分析表演与空间构思_完整操作手册_V1.0.md",
+      "bytes": 31306,
+      "sha256": "62e308c030d0122261c018cba34cdaca2a807aeef759166df427b45ba687a250"
+    },
+    {
+      "name": "02_P3六阶段手册_只读/S4_01_P3-S4_镜头语言声画设计与七栏分镜_完整操作手册_V1.0.md",
+      "bytes": 35866,
+      "sha256": "1c3986a600d875f7cda391f4a33f4b36175b5dd31728db39d1a78a84d4896b6a"
+    },
+    {
+      "name": "02_P3六阶段手册_只读/S5_01_S5-01至S5-08_八步完整操作手册.md",
+      "bytes": 13927,
+      "sha256": "79a1cc138b2f0197466ff6053b8c4dba3c0495827418ef66e46f8df0a8f66778"
+    },
+    {
+      "name": "02_P3六阶段手册_只读/S6_01_P3-S6_Seedance提示词与镜头生成_完整操作手册_V1.0.md",
+      "bytes": 31960,
+      "sha256": "c360d8c73d68245b91efe6e96dbf8baa1c46e6df84b1eac076728adfef455293"
+    },
+    {
+      "name": "02_P3六阶段手册_只读/历史对照_旧版六阶段整合操作手册_V1.0.md",
+      "bytes": 68926,
+      "sha256": "1ca3e7843c4b1c00a6c99ba1018fbd2233cc688f67b207a0a84f2d8faecd5dc9"
+    },
+    {
+      "name": "03_S5专项规范_只读/01_角色资产_设计流程与提示词规范_V2.3.md",
+      "bytes": 12214,
+      "sha256": "6115315781f2f40e4a1e153b827ce0eb061de99c8218951962e81bd7ca9ec967"
+    },
+    {
+      "name": "03_S5专项规范_只读/02_场景资产_双画幅正反打与提示词规范_V2.3.md",
+      "bytes": 17534,
+      "sha256": "aec538ea57d74785a0308240ddda9c5b9d659b2bfb3cc77878cd33e0f179cf4d"
+    },
+    {
+      "name": "03_S5专项规范_只读/03_道具资产_设计流程与精简提示词规范_V2.2.md",
+      "bytes": 21500,
+      "sha256": "8c27e0d29e36154b71358169f2501553cbf58951ddd4a3a0a9f6e3a0fef8b8b4"
+    },
+    {
+      "name": "03_S5专项规范_只读/04_特效资产_背景对比与精简提示词规范_V2.3.md",
+      "bytes": 12498,
+      "sha256": "e527d9886b9c22acb94b7c4a1044cce66a7a6c897bbb867e5d76d44e90e48d6a"
+    },
+    {
+      "name": "04_实际测试证据_只读/03_质检矩阵.csv",
+      "bytes": 1269,
+      "sha256": "4b4a1a5fc8c8951b665bba7b65f27a71988e4bd5706fb0ac3b814dcf42fc80d2"
+    },
+    {
+      "name": "04_实际测试证据_只读/A04-R01_婚房A_失败_南门入画.png",
+      "bytes": 2579501,
+      "sha256": "683a07470eb3a0475a1bbc8b60afd5b8def668d2db5b3b65436ff404847d0184"
+    },
+    {
+      "name": "04_实际测试证据_只读/A04-R02_婚房A_失败_多窗与日光.png",
+      "bytes": 2549359,
+      "sha256": "03c74eecaa6f0affe82780d4f8671fc1e215b36d3921ddd185c9b73902ecd4a0"
+    },
+    {
+      "name": "04_实际测试证据_只读/L02_杨辰角色三联_待人工审查.png",
+      "bytes": 2104692,
+      "sha256": "d145c618e5e2b733b37c36da9d60a6b9a9ea72a9696c5dd839637badf6898aeb"
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "version": 3,
+  "sheets": [
+    {
+      "name": "角色",
+      "last_row": 19,
+      "groups": [
+        {
+          "master": 6,
+          "first": 7,
+          "last": 10,
+          "id": "R01"
+        },
+        {
+          "master": 11,
+          "first": 12,
+          "last": 12,
+          "id": "R01-01"
+        },
+        {
+          "master": 13,
+          "first": 14,
+          "last": 15,
+          "id": "R01-02"
+        },
+        {
+          "master": 16,
+          "first": 17,
+          "last": 17,
+          "id": "R01-02-01"
+        },
+        {
+          "master": 18,
+          "first": 19,
+          "last": 19,
+          "id": "R01-02-02"
+        }
+      ],
+      "assets": [
+        {
+          "id": "R01",
+          "kind": "资产",
+          "parent_id": "",
+          "master": 6,
+          "raw": [
+            {
+              "row": 7,
+              "source_id": "P004",
+              "part": 0,
+              "parts": 1,
+              "text": "阿宁，28岁，诊所医师。性格沉着、谨慎，黑色短发。村民称她宁姐。"
+            },
+            {
+              "row": 8,
+              "source_id": "P005",
+              "part": 0,
+              "parts": 1,
+              "text": "▲阿宁穿灰色日常外套站在靠窗木桌旁，门旁是药柜。"
+            },
+            {
+              "row": 9,
+              "source_id": "P008",
+              "part": 0,
+              "parts": 1,
+              "text": "▲阿宁换上白色工作服，右袖被雨打湿，右前臂出现一道划伤。"
+            },
+            {
+              "row": 10,
+              "source_id": "P011",
+              "part": 0,
+              "parts": 1,
+              "text": "▲阿宁仍穿白色工作服，袖口已干，右前臂缠着纱布。"
+            }
+          ]
+        },
+        {
+          "id": "R01-01",
+          "kind": "服装",
+          "parent_id": "R01",
+          "master": 11,
+          "raw": [
+            {
+              "row": 12,
+              "source_id": "P005",
+              "part": 0,
+              "parts": 1,
+              "text": "▲阿宁穿灰色日常外套站在靠窗木桌旁，门旁是药柜。"
+            }
+          ]
+        },
+        {
+          "id": "R01-02",
+          "kind": "服装",
+          "parent_id": "R01",
+          "master": 13,
+          "raw": [
+            {
+              "row": 14,
+              "source_id": "P008",
+              "part": 0,
+              "parts": 1,
+              "text": "▲阿宁换上白色工作服，右袖被雨打湿，右前臂出现一道划伤。"
+            },
+            {
+              "row": 15,
+              "source_id": "P011",
+              "part": 0,
+              "parts": 1,
+              "text": "▲阿宁仍穿白色工作服，袖口已干，右前臂缠着纱布。"
+            }
+          ]
+        },
+        {
+          "id": "R01-02-01",
+          "kind": "状态",
+          "parent_id": "R01-02",
+          "master": 16,
+          "raw": [
+            {
+              "row": 17,
+              "source_id": "P008",
+              "part": 0,
+              "parts": 1,
+              "text": "▲阿宁换上白色工作服，右袖被雨打湿，右前臂出现一道划伤。"
+            }
+          ]
+        },
+        {
+          "id": "R01-02-02",
+          "kind": "状态",
+          "parent_id": "R01-02",
+          "master": 18,
+          "raw": [
+            {
+              "row": 19,
+              "source_id": "P011",
+              "part": 0,
+              "parts": 1,
+              "text": "▲阿宁仍穿白色工作服，袖口已干，右前臂缠着纱布。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "场景",
+      "last_row": 13,
+      "groups": [
+        {
+          "master": 6,
+          "first": 7,
+          "last": 11,
+          "id": "S01"
+        },
+        {
+          "master": 12,
+          "first": 13,
+          "last": 13,
+          "id": "S01-01"
+        }
+      ],
+      "assets": [
+        {
+          "id": "S01",
+          "kind": "资产",
+          "parent_id": "",
+          "master": 6,
+          "raw": [
+            {
+              "row": 7,
+              "source_id": "P003",
+              "part": 0,
+              "parts": 1,
+              "text": "1-1 夜 内 东村诊所"
+            },
+            {
+              "row": 8,
+              "source_id": "P005",
+              "part": 0,
+              "parts": 1,
+              "text": "▲阿宁穿灰色日常外套站在靠窗木桌旁，门旁是药柜。"
+            },
+            {
+              "row": 9,
+              "source_id": "P007",
+              "part": 0,
+              "parts": 1,
+              "text": "2-1 夜 内 东村诊所"
+            },
+            {
+              "row": 10,
+              "source_id": "P010",
+              "part": 0,
+              "parts": 1,
+              "text": "3-1 日 内 东村诊所"
+            },
+            {
+              "row": 11,
+              "source_id": "P012",
+              "part": 0,
+              "parts": 1,
+              "text": "▲木桌已移到门前堵门，桌面裂开一道缝。"
+            }
+          ]
+        },
+        {
+          "id": "S01-01",
+          "kind": "状态",
+          "parent_id": "S01",
+          "master": 12,
+          "raw": [
+            {
+              "row": 13,
+              "source_id": "P012",
+              "part": 0,
+              "parts": 1,
+              "text": "▲木桌已移到门前堵门，桌面裂开一道缝。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "道具",
+      "last_row": 7,
+      "groups": [
+        {
+          "master": 6,
+          "first": 7,
+          "last": 7,
+          "id": "P01"
+        }
+      ],
+      "assets": [
+        {
+          "id": "P01",
+          "kind": "资产",
+          "parent_id": "",
+          "master": 6,
+          "raw": [
+            {
+              "row": 7,
+              "source_id": "P013",
+              "part": 0,
+              "parts": 1,
+              "text": "▲她拿出铜印，上面刻着“东”字。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

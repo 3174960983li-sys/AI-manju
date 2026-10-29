@@ -1,0 +1,49 @@
+{
+  "engine": "Microsoft Excel COM",
+  "readOnly": true,
+  "sheets": [
+    {
+      "sheet": "角色",
+      "assets": 62,
+      "rawGroups": 62,
+      "collapsedByDefault": true,
+      "expandCollapse": true,
+      "subAssetsVisible": true,
+      "filter": true,
+      "freeze": "C6",
+      "print": "A3横向"
+    },
+    {
+      "sheet": "场景",
+      "assets": 33,
+      "rawGroups": 33,
+      "collapsedByDefault": true,
+      "expandCollapse": true,
+      "subAssetsVisible": true,
+      "filter": true,
+      "freeze": "C6",
+      "print": "A3横向"
+    },
+    {
+      "sheet": "道具",
+      "assets": 25,
+      "rawGroups": 25,
+      "collapsedByDefault": true,
+      "expandCollapse": true,
+      "subAssetsVisible": true,
+      "filter": true,
+      "freeze": "C6",
+      "print": "A3横向"
+    }
+  ],
+  "defaultPrintPdf": true,
+  "expandedPrintPdf": true,
+  "sourceWorkbookSaved": false,
+  "filterAppliedReadOnly": "角色名称=苏小菲，非匹配首行隐藏；未保存筛选",
+  "visualReview": {
+    "default_pages": 15,
+    "expanded_first_role_pages": 2,
+    "reviewed": "15页总览、角色组及场景组、默认首屏与展开原文首屏",
+    "printFinalizedInExcel": true
+  }
+}

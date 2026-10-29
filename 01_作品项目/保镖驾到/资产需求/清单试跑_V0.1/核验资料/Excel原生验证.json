@@ -1,0 +1,15 @@
+{
+  "engine": "Microsoft Excel COM",
+  "readOnly": true,
+  "counts": [
+    20,
+    22,
+    37,
+    44,
+    37,
+    105
+  ],
+  "filters": true,
+  "dynamicName": "CHR-0001",
+  "specialRows": 14
+}

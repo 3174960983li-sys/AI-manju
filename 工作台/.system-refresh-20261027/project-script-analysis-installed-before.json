@@ -1,0 +1,46 @@
+[
+  {
+    "path": "SKILL.md",
+    "sha256": "0c2611989ab978c41185e13ec6a63e7f433b75c53d551e51b7c9b5b8cbd54d7b"
+  },
+  {
+    "path": "agents\\openai.yaml",
+    "sha256": "887c519650e72d0c6fdbefa9ef4d7c1dd2cb94e021e8bcccc223e68b5c969ced"
+  },
+  {
+    "path": "references\\adaptation-production-handoff.md",
+    "sha256": "59d99076408de78d7cb9567b52253bbebc437b01a574b93eea6172a6c326cf01"
+  },
+  {
+    "path": "references\\analysis-method.md",
+    "sha256": "69efe5684d2ee77b08e534e81574201e3a12cccfa8d53e41c40b6b7e73c91492"
+  },
+  {
+    "path": "references\\director-book.md",
+    "sha256": "c8964f262ddf393546de37d6aa53dc000ba0a406c4f26efe61eb19df6ef6e727"
+  },
+  {
+    "path": "references\\evidence-led-analysis.md",
+    "sha256": "616e4078459d0639b4bbabf01aa14542ecbb11d110e3deb81d4c4dd76686110d"
+  },
+  {
+    "path": "references\\reading-sources.md",
+    "sha256": "c6d8e9e895f24416986816ef18a864401f2a140c7b782a5a9a424409c0ba9030"
+  },
+  {
+    "path": "references\\story-and-scene-diagnosis.md",
+    "sha256": "886ddc61f3f1fe8dbe94fbcc77b29d1204fc177a4e129629a2cba039e2c3f0e7"
+  },
+  {
+    "path": "references\\四阶段协作规范.md",
+    "sha256": "9d269e07a25fcec4a13ae83745718d09b1e18ceba17208c789065b56f344a491"
+  },
+  {
+    "path": "references\\观看动力与信息诊断.md",
+    "sha256": "3f74e8dd9fbc056bf9279b854d9598468f054a856c696844cd7056c696f30a42"
+  },
+  {
+    "path": "试跑\\V1.2_因果信息与导演交接文字试跑.md",
+    "sha256": "414cdb7e30e19ce0ba8bbe17604e75fe4482ff48d451ed0be4d71b9951627852"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "engine": "Microsoft Excel COM",
+  "readOnly": true,
+  "sheets": 3,
+  "columnsPerSheet": 5,
+  "rows": [
+    25,
+    56,
+    48
+  ],
+  "filters": true,
+  "roleChildAfterParent": true
+}

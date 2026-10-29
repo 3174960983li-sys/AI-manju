@@ -1,0 +1,25 @@
+{
+  "zip": "E:\\AI漫剧\\04_项目管理\\02_任务记录\\剧本资产拆解_script-asset-breakdown_V3.0_完整包.zip",
+  "sha256": "04e9b722e040389e22f54d31f27c43037389fe28df9640b2c21fd921da591dc3",
+  "files": [
+    "script-asset-breakdown/agents/openai.yaml",
+    "script-asset-breakdown/assets/blank-data.json",
+    "script-asset-breakdown/assets/sample-data.json",
+    "script-asset-breakdown/assets/sample-script.md",
+    "script-asset-breakdown/assets/schema.json",
+    "script-asset-breakdown/assets/剧本资产清单_空白模板.xlsx",
+    "script-asset-breakdown/assets/剧本资产清单_边界案例.xlsx",
+    "script-asset-breakdown/references/boundary-cases.md",
+    "script-asset-breakdown/references/evidence-episodes.md",
+    "script-asset-breakdown/references/identification.md",
+    "script-asset-breakdown/references/update-handoff.md",
+    "script-asset-breakdown/references/workbook.md",
+    "script-asset-breakdown/scripts/build_workbook.mjs",
+    "script-asset-breakdown/scripts/check_data.py",
+    "script-asset-breakdown/scripts/extract_docx.py",
+    "script-asset-breakdown/scripts/finalize_excel_print.ps1",
+    "script-asset-breakdown/scripts/merge_data.py",
+    "script-asset-breakdown/scripts/patch_layout.py",
+    "script-asset-breakdown/SKILL.md"
+  ]
+}

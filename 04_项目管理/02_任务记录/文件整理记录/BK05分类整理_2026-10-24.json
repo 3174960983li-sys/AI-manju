@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-24",
+  "root": "E:\\AI漫剧\\BK05编剧资料",
+  "status": "complete",
+  "content_files_before": 282,
+  "content_files_after": 282,
+  "moved_files": 282,
+  "content_bytes": 3791487173,
+  "categories": {
+    "01_编剧基础与创作方法": 63,
+    "02_故事结构情节与类型": 28,
+    "03_人物对白与表演": 9,
+    "04_导演分镜与视听语言": 30,
+    "05_摄影灯光与视觉美术": 15,
+    "06_剪辑声音与音乐": 7,
+    "07_动画漫画与专项创作": 19,
+    "08_制片产业与传播": 4,
+    "09_剧本范例拉片与影评": 32,
+    "10_电影理论历史与辞典": 37,
+    "11_导演访谈传记与创作谈": 21,
+    "12_文学写作与艺术基础": 16,
+    "99_软件与格式待确认": 1
+  },
+  "filename_changes": 0,
+  "content_changes": 0,
+  "deleted_content_files": 0,
+  "empty_old_directories_removed": [
+    "E:\\AI漫剧\\BK05编剧资料\\16本经典编剧教程书",
+    "E:\\AI漫剧\\BK05编剧资料\\220本编剧影视专业书籍",
+    "E:\\AI漫剧\\BK05编剧资料\\62本影视专业书籍",
+    "E:\\AI漫剧\\BK05编剧资料\\剧本写作资料",
+    "E:\\AI漫剧\\BK05编剧资料\\编剧书籍",
+    "E:\\AI漫剧\\BK05编剧资料\\编剧创作技巧"
+  ],
+  "audit": "E:\\AI漫剧\\04_项目管理\\02_任务记录\\文件整理记录\\BK05分类整理_2026-10-24.csv",
+  "verification": "All resolved move paths inside BK05; unique absent destinations; SHA256 before and after each move; exact final file set and total bytes matched.",
+  "navigation": {
+    "guide": "E:\\AI漫剧\\BK05编剧资料\\00_书库使用说明.md",
+    "content_files": 282,
+    "added_guide_files": 1,
+    "current_links_checked": 326,
+    "broken_current_links": 0,
+    "previous_indices": "E:\\AI漫剧\\05_文件整理\\03_停用归档\\管理入口历史\\BK05分类前_2026-10-24"
+  }
+}

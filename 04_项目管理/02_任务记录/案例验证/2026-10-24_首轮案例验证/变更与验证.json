@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-24",
+  "previous_snapshot": "E:\\AI漫剧\\04_项目管理\\02_任务记录\\盘点快照\\20261023_235852_191443_文件清单.csv",
+  "changed_existing": [
+    "04_项目管理/01_管理规则/03_规则索引与首批知识记录.md",
+    "04_项目管理/02_任务记录/04_迭代队列与实验记录.md",
+    "04_项目管理/02_任务记录/项目总目录.md",
+    "00_使用说明.md"
+  ],
+  "missing_existing": [],
+  "source_file_metadata_unchanged": true,
+  "text_hash_comparisons": 121,
+  "read_only_skill_hash_checks": 3,
+  "checked_local_links": 45,
+  "media_generations": 0,
+  "external_uploads": 0,
+  "scope": "有界抽帧观察；未连续播放，未听音，用户同意声音暂缓；未核实当次真实投喂链",
+  "check": "本轮管理记录四处已备份；源SOP/作品/安装Skill未变"
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 3,
+  "meta": {
+    "project": "资产需求清单",
+    "scope": [
+      1,
+      10
+    ],
+    "source_name": "待填写来源",
+    "source_type": "待填写",
+    "date": "2026-10-28"
+  },
+  "source_records": [],
+  "assets": {
+    "角色": [],
+    "场景": [],
+    "道具": []
+  }
+}

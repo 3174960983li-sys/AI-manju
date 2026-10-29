@@ -1,0 +1,88 @@
+{
+  "path": "D:\\Download\\Microsoft\\视频节点 3 (3).mp4",
+  "source": "D盘限定日期候选D10，未找到当次任务回执；与成片采用段经关键画面和低分辨率帧相似度辅助匹配",
+  "sha256": "03ca1c5a02eb47ac60318c8f6f67775d0e22358ccf3975095857de8e88e89c05",
+  "stream_info": [
+    "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 6206 kb/s, 24 fps, 24 tbr, 12288 tbn (default)",
+    "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 32000 Hz, stereo, fltp, 128 kb/s (default)"
+  ],
+  "candidate_cuts": [
+    3.0,
+    5.166667,
+    8.625,
+    10.875,
+    14.541667,
+    16.0,
+    17.333333,
+    18.333333
+  ],
+  "matches": [
+    {
+      "original_s": 0.5,
+      "edit_s": 57.467,
+      "offset_s": 56.967,
+      "pixel_mse_32x18": 145.642
+    },
+    {
+      "original_s": 2,
+      "edit_s": 59.067,
+      "offset_s": 57.067,
+      "pixel_mse_32x18": 159.168
+    },
+    {
+      "original_s": 4,
+      "edit_s": 60.933,
+      "offset_s": 56.933,
+      "pixel_mse_32x18": 335.815
+    },
+    {
+      "original_s": 6,
+      "edit_s": 63.067,
+      "offset_s": 57.067,
+      "pixel_mse_32x18": 141.14
+    },
+    {
+      "original_s": 8,
+      "edit_s": 65.067,
+      "offset_s": 57.067,
+      "pixel_mse_32x18": 152.062
+    },
+    {
+      "original_s": 10,
+      "edit_s": 67.1,
+      "offset_s": 57.1,
+      "pixel_mse_32x18": 151.202
+    },
+    {
+      "original_s": 12,
+      "edit_s": 68.767,
+      "offset_s": 56.767,
+      "pixel_mse_32x18": 337.241
+    },
+    {
+      "original_s": 15,
+      "edit_s": 72.033,
+      "offset_s": 57.033,
+      "pixel_mse_32x18": 368.024
+    },
+    {
+      "original_s": 16.5,
+      "edit_s": 73.367,
+      "offset_s": 56.867,
+      "pixel_mse_32x18": 145.469
+    },
+    {
+      "original_s": 19,
+      "edit_s": 76.1,
+      "offset_s": 57.1,
+      "pixel_mse_32x18": 240.303
+    },
+    {
+      "original_s": 22,
+      "edit_s": 77.867,
+      "offset_s": 55.867,
+      "pixel_mse_32x18": 160.115
+    }
+  ],
+  "limitations": "稳定镜头有多个近似帧，单点最小误差不能精确证明剪辑帧映射"
+}

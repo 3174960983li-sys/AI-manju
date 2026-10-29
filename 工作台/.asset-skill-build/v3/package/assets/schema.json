@@ -1,0 +1,50 @@
+{
+  "schema_version": 3,
+  "columns": [
+    "编号",
+    "名称",
+    "资产描述",
+    "完整原文",
+    "出现集数"
+  ],
+  "sheets": [
+    "角色",
+    "场景",
+    "道具"
+  ],
+  "paragraph_fields": [
+    "id",
+    "text",
+    "episode",
+    "scene"
+  ],
+  "node_fields": [
+    "id",
+    "name",
+    "description",
+    "parent_id",
+    "kind",
+    "source_ids",
+    "events",
+    "candidate",
+    "planned_episodes",
+    "outfit_id",
+    "review",
+    "user_notes"
+  ],
+  "event_fields": [
+    "episode",
+    "scene",
+    "mode",
+    "source_id",
+    "inferred"
+  ],
+  "event_modes": [
+    "现场",
+    "画外音",
+    "闪回",
+    "仅提及"
+  ],
+  "source_contract": "原文目录不可改写；V2短摘不构成V3来源；多文件/版本ID需命名空间",
+  "scope_contract": "实际出场与候选拟用、仅提及分开，首末只限本轮"
+}

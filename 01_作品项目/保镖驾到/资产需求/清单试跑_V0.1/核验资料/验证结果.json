@@ -1,0 +1,24 @@
+{
+  "source_sha256_unchanged": true,
+  "source_records": 135,
+  "counts": {
+    "角色基础": 20,
+    "角色服装与状态": 22,
+    "场景基础": 37,
+    "场景状态": 44,
+    "道具需求": 37,
+    "出现与变化明细": 105
+  },
+  "source_level_only": true,
+  "schema_links_filters_freeze_checks": true,
+  "semantic_checks": [
+    "江辰孤狼归并",
+    "动物不归道具",
+    "密室暂分不冒称不同房间",
+    "灯与盒拆分",
+    "真假令分实例",
+    "服装缺口不编造",
+    "无伪造分场号"
+  ],
+  "xlsx_sha256": "96a64a1979f12f80c4691fc27560906b1a8ed181951e398e8edd8a31c54ec153"
+}

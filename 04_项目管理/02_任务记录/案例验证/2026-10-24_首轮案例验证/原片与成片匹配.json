@@ -1,0 +1,65 @@
+{
+  "method": "32x18 RGB缩小后逐候选帧最小均方差；辅助对应，不等于逐像素同一或真实任务回执",
+  "matches": [
+    {
+      "original_s": 0.5,
+      "edit_s": 81.467,
+      "offset_s": 80.967,
+      "pixel_mse_32x18": 92.987
+    },
+    {
+      "original_s": 2,
+      "edit_s": 83.467,
+      "offset_s": 81.467,
+      "pixel_mse_32x18": 107.59
+    },
+    {
+      "original_s": 4,
+      "edit_s": 85.433,
+      "offset_s": 81.433,
+      "pixel_mse_32x18": 165.194
+    },
+    {
+      "original_s": 6.5,
+      "edit_s": 87.967,
+      "offset_s": 81.467,
+      "pixel_mse_32x18": 273.263
+    },
+    {
+      "original_s": 8,
+      "edit_s": 89.4,
+      "offset_s": 81.4,
+      "pixel_mse_32x18": 187.737
+    },
+    {
+      "original_s": 9.5,
+      "edit_s": 90.733,
+      "offset_s": 81.233,
+      "pixel_mse_32x18": 229.892
+    },
+    {
+      "original_s": 11,
+      "edit_s": 92.167,
+      "offset_s": 81.167,
+      "pixel_mse_32x18": 151.727
+    },
+    {
+      "original_s": 13,
+      "edit_s": 93.3,
+      "offset_s": 80.3,
+      "pixel_mse_32x18": 137.443
+    },
+    {
+      "original_s": 15,
+      "edit_s": 95.7,
+      "offset_s": 80.7,
+      "pixel_mse_32x18": 144.966
+    },
+    {
+      "original_s": 17,
+      "edit_s": 97.633,
+      "offset_s": 80.633,
+      "pixel_mse_32x18": 166.417
+    }
+  ]
+}

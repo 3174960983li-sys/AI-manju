@@ -1,0 +1,23 @@
+{
+  "backup": "E:\\AI漫剧\\02_制作方法\\02_专业技能\\历史版本\\script-asset-breakdown_V3.0_优化前_20261028.zip",
+  "imports": [
+    {
+      "name": "cyber-character",
+      "maintenance": "E:\\AI漫剧\\02_制作方法\\02_专业技能\\第三方Skill\\cyber-character",
+      "original": "E:\\AI漫剧\\03_参考资料\\SKILL\\角色提取1.0.0.skill",
+      "original_sha256": "7ee8d82fbc88302c1e0211513abb5c3949abb8c434315b980ca76fc2a3c8918f"
+    },
+    {
+      "name": "cyber-scene",
+      "maintenance": "E:\\AI漫剧\\02_制作方法\\02_专业技能\\第三方Skill\\cyber-scene",
+      "original": "E:\\AI漫剧\\03_参考资料\\SKILL\\场景提取1.0.0.skill",
+      "original_sha256": "cf30fc9b456a2e2af0407343c14e0cbf72f39705b5e7b314ba8945838a2eb9c9"
+    },
+    {
+      "name": "cyber-prop",
+      "maintenance": "E:\\AI漫剧\\02_制作方法\\02_专业技能\\第三方Skill\\cyber-prop",
+      "original": "E:\\AI漫剧\\03_参考资料\\SKILL\\道具提取1.0.0.skill",
+      "original_sha256": "27f24e29b61e5e6d477bc91a21fda86a57c3e0c554a7cc043860c1c3c5c1bb46"
+    }
+  ]
+}

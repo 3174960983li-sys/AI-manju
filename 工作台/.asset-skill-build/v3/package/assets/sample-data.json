@@ -1,0 +1,336 @@
+{
+  "schema_version": 3,
+  "meta": {
+    "project": "合成分层阅读示例",
+    "scope": [
+      1,
+      3
+    ],
+    "source_name": "sample-script.md",
+    "source_type": "自编演示材料",
+    "date": "2026-10-28"
+  },
+  "source_records": [
+    {
+      "id": "P001",
+      "text": "合成边界案例：不属于任何真实作品。",
+      "episode": null,
+      "scene": null
+    },
+    {
+      "id": "P002",
+      "text": "第一集",
+      "episode": 1,
+      "scene": null
+    },
+    {
+      "id": "P003",
+      "text": "1-1 夜 内 东村诊所",
+      "episode": 1,
+      "scene": "1-1"
+    },
+    {
+      "id": "P004",
+      "text": "阿宁，28岁，诊所医师。性格沉着、谨慎，黑色短发。村民称她宁姐。",
+      "episode": 1,
+      "scene": "1-1"
+    },
+    {
+      "id": "P005",
+      "text": "▲阿宁穿灰色日常外套站在靠窗木桌旁，门旁是药柜。",
+      "episode": 1,
+      "scene": "1-1"
+    },
+    {
+      "id": "P006",
+      "text": "第二集",
+      "episode": 2,
+      "scene": null
+    },
+    {
+      "id": "P007",
+      "text": "2-1 夜 内 东村诊所",
+      "episode": 2,
+      "scene": "2-1"
+    },
+    {
+      "id": "P008",
+      "text": "▲阿宁换上白色工作服，右袖被雨打湿，右前臂出现一道划伤。",
+      "episode": 2,
+      "scene": "2-1"
+    },
+    {
+      "id": "P009",
+      "text": "第三集",
+      "episode": 3,
+      "scene": null
+    },
+    {
+      "id": "P010",
+      "text": "3-1 日 内 东村诊所",
+      "episode": 3,
+      "scene": "3-1"
+    },
+    {
+      "id": "P011",
+      "text": "▲阿宁仍穿白色工作服，袖口已干，右前臂缠着纱布。",
+      "episode": 3,
+      "scene": "3-1"
+    },
+    {
+      "id": "P012",
+      "text": "▲木桌已移到门前堵门，桌面裂开一道缝。",
+      "episode": 3,
+      "scene": "3-1"
+    },
+    {
+      "id": "P013",
+      "text": "▲她拿出铜印，上面刻着“东”字。",
+      "episode": 3,
+      "scene": "3-1"
+    }
+  ],
+  "assets": {
+    "角色": [
+      {
+        "id": "R01",
+        "name": "阿宁（宁姐）",
+        "description": "身份：诊所医师，28岁。\n性格：沉着、谨慎。\n外貌：黑色短发。\n服装：灰色日常外套，后换白色工作服。",
+        "parent_id": "",
+        "kind": "资产",
+        "source_ids": [
+          "P004",
+          "P005",
+          "P008",
+          "P011"
+        ],
+        "events": [
+          {
+            "episode": 1,
+            "scene": "1-1",
+            "mode": "现场",
+            "source_id": "P005",
+            "inferred": false
+          },
+          {
+            "episode": 2,
+            "scene": "2-1",
+            "mode": "现场",
+            "source_id": "P008",
+            "inferred": false
+          },
+          {
+            "episode": 3,
+            "scene": "3-1",
+            "mode": "现场",
+            "source_id": "P011",
+            "inferred": false
+          }
+        ],
+        "candidate": false,
+        "planned_episodes": [],
+        "outfit_id": "",
+        "review": "不适用",
+        "user_notes": ""
+      },
+      {
+        "id": "R01-01",
+        "name": "灰色日常外套",
+        "description": "原文明示：灰色日常外套，第1集出现。",
+        "parent_id": "R01",
+        "kind": "服装",
+        "source_ids": [
+          "P005"
+        ],
+        "events": [
+          {
+            "episode": 1,
+            "scene": "1-1",
+            "mode": "现场",
+            "source_id": "P005",
+            "inferred": false
+          }
+        ],
+        "candidate": false,
+        "planned_episodes": [],
+        "outfit_id": "",
+        "review": "不适用",
+        "user_notes": ""
+      },
+      {
+        "id": "R01-02",
+        "name": "白色工作服",
+        "description": "原文明示：第2集换上，第三集仍穿。",
+        "parent_id": "R01",
+        "kind": "服装",
+        "source_ids": [
+          "P008",
+          "P011"
+        ],
+        "events": [
+          {
+            "episode": 2,
+            "scene": "2-1",
+            "mode": "现场",
+            "source_id": "P008",
+            "inferred": false
+          },
+          {
+            "episode": 3,
+            "scene": "3-1",
+            "mode": "现场",
+            "source_id": "P011",
+            "inferred": false
+          }
+        ],
+        "candidate": false,
+        "planned_episodes": [],
+        "outfit_id": "",
+        "review": "不适用",
+        "user_notes": ""
+      },
+      {
+        "id": "R01-02-01",
+        "name": "湿袖／划伤",
+        "description": "第2集右袖被雨打湿，右前臂有划伤。",
+        "parent_id": "R01-02",
+        "kind": "状态",
+        "source_ids": [
+          "P008"
+        ],
+        "events": [
+          {
+            "episode": 2,
+            "scene": "2-1",
+            "mode": "现场",
+            "source_id": "P008",
+            "inferred": false
+          }
+        ],
+        "candidate": false,
+        "planned_episodes": [],
+        "outfit_id": "R01-02",
+        "review": "不适用",
+        "user_notes": ""
+      },
+      {
+        "id": "R01-02-02",
+        "name": "干袖／包扎",
+        "description": "第3集袖口已干，右前臂缠纱布。",
+        "parent_id": "R01-02",
+        "kind": "状态",
+        "source_ids": [
+          "P011"
+        ],
+        "events": [
+          {
+            "episode": 3,
+            "scene": "3-1",
+            "mode": "现场",
+            "source_id": "P011",
+            "inferred": false
+          }
+        ],
+        "candidate": false,
+        "planned_episodes": [],
+        "outfit_id": "R01-02",
+        "review": "不适用",
+        "user_notes": ""
+      }
+    ],
+    "场景": [
+      {
+        "id": "S01",
+        "name": "东村诊所",
+        "description": "功能：诊所中的连续事件。\n结构与陈设：靠窗木桌、门旁药柜。",
+        "parent_id": "",
+        "kind": "资产",
+        "source_ids": [
+          "P003",
+          "P005",
+          "P007",
+          "P010",
+          "P012"
+        ],
+        "events": [
+          {
+            "episode": 1,
+            "scene": "1-1",
+            "mode": "现场",
+            "source_id": "P005",
+            "inferred": false
+          },
+          {
+            "episode": 2,
+            "scene": "2-1",
+            "mode": "现场",
+            "source_id": "P008",
+            "inferred": false
+          },
+          {
+            "episode": 3,
+            "scene": "3-1",
+            "mode": "现场",
+            "source_id": "P011",
+            "inferred": false
+          }
+        ],
+        "candidate": false,
+        "planned_episodes": [],
+        "outfit_id": "",
+        "review": "不适用",
+        "user_notes": ""
+      },
+      {
+        "id": "S01-01",
+        "name": "木桌堵门状态",
+        "description": "第3集木桌移到门前、桌面裂缝。",
+        "parent_id": "S01",
+        "kind": "状态",
+        "source_ids": [
+          "P012"
+        ],
+        "events": [
+          {
+            "episode": 3,
+            "scene": "3-1",
+            "mode": "现场",
+            "source_id": "P012",
+            "inferred": false
+          }
+        ],
+        "candidate": false,
+        "planned_episodes": [],
+        "outfit_id": "",
+        "review": "不适用",
+        "user_notes": ""
+      }
+    ],
+    "道具": [
+      {
+        "id": "P01",
+        "name": "东字铜印",
+        "description": "用途：独立手持道具。\n关键文字：东；具体形制未写。",
+        "parent_id": "",
+        "kind": "资产",
+        "source_ids": [
+          "P013"
+        ],
+        "events": [
+          {
+            "episode": 3,
+            "scene": "3-1",
+            "mode": "现场",
+            "source_id": "P013",
+            "inferred": false
+          }
+        ],
+        "candidate": false,
+        "planned_episodes": [],
+        "outfit_id": "",
+        "review": "不适用",
+        "user_notes": ""
+      }
+    ]
+  }
+}

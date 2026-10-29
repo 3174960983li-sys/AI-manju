@@ -1,0 +1,141 @@
+{
+  "files": 67,
+  "markdown": 65,
+  "links": 128,
+  "broken": [],
+  "optional_absolute": [
+    {
+      "file": "project-script-analysis\\references\\adaptation-production-handoff.md",
+      "target": "E:/AI漫剧/02_制作方法/02_专业技能/自研Skill/photoreal-drama-director/SKILL.md",
+      "exists": true
+    },
+    {
+      "file": "project-script-analysis\\references\\evidence-led-analysis.md",
+      "target": "E:/AI漫剧/03_参考资料/02_知识笔记/01_项目与剧本分析/如何从人物选择分析性格.md",
+      "exists": true
+    },
+    {
+      "file": "project-script-analysis\\references\\evidence-led-analysis.md",
+      "target": "E:/AI漫剧/03_参考资料/02_知识笔记/01_项目与剧本分析/人物揭示与人物变化如何区分.md",
+      "exists": true
+    },
+    {
+      "file": "project-script-analysis\\references\\evidence-led-analysis.md",
+      "target": "E:/AI漫剧/03_参考资料/02_知识笔记/01_项目与剧本分析/如何让时代背景与世界规则参与剧情分析.md",
+      "exists": true
+    },
+    {
+      "file": "project-script-analysis\\references\\evidence-led-analysis.md",
+      "target": "E:/AI漫剧/03_参考资料/02_知识笔记/01_项目与剧本分析/如何把心理叙述转成视听表达需求.md",
+      "exists": true
+    },
+    {
+      "file": "project-script-analysis\\references\\reading-sources.md",
+      "target": "E:/AI漫剧/03_参考资料/02_知识笔记/01_项目与剧本分析/怎样从因果与信息检查剧本是否成立.md",
+      "exists": true
+    },
+    {
+      "file": "project-script-analysis\\references\\reading-sources.md",
+      "target": "E:/AI漫剧/03_参考资料/02_知识笔记/01_项目与剧本分析/怎样把小说叙述变成可交接的制作需求.md",
+      "exists": true
+    },
+    {
+      "file": "photoreal-drama-director\\references\\书籍方法与选择检查.md",
+      "target": "E:/AI漫剧/03_参考资料/02_知识笔记/03_导演与视听叙事/如何把导演主张变成可判断的场面设计.md",
+      "exists": true
+    },
+    {
+      "file": "photoreal-drama-director\\references\\书籍方法与选择检查.md",
+      "target": "E:/AI漫剧/03_参考资料/02_知识笔记/03_导演与视听叙事/如何把情绪要求转成可执行表演.md",
+      "exists": true
+    },
+    {
+      "file": "photoreal-drama-director\\references\\书籍方法与选择检查.md",
+      "target": "E:/AI漫剧/03_参考资料/02_知识笔记/03_导演与视听叙事/如何用视点和调度组织观众注意力.md",
+      "exists": true
+    },
+    {
+      "file": "photoreal-drama-director\\references\\书籍方法与选择检查.md",
+      "target": "E:/AI漫剧/03_参考资料/02_知识笔记/03_导演与视听叙事/怎样把整体导演意图落实到连续场面.md",
+      "exists": true
+    },
+    {
+      "file": "photoreal-drama-director\\references\\书籍方法与选择检查.md",
+      "target": "E:/AI漫剧/03_参考资料/02_知识笔记/03_导演与视听叙事/怎样统筹多人空间与视听注意.md",
+      "exists": true
+    },
+    {
+      "file": "shot-language-design\\references\\空间编排与教程校验.md",
+      "target": "E:/AI漫剧/03_参考资料/02_知识笔记/03_导演与视听叙事/镜头语言怎样分类并组合选择.md",
+      "exists": true
+    },
+    {
+      "file": "shot-language-design\\references\\空间编排与教程校验.md",
+      "target": "E:/AI漫剧/03_参考资料/02_知识笔记/03_导演与视听叙事/怎样把人物行动编排成连续可读的镜头.md",
+      "exists": true
+    },
+    {
+      "file": "shot-language-design\\references\\空间编排与教程校验.md",
+      "target": "E:/AI漫剧/03_参考资料/02_知识笔记/03_导演与视听叙事/复合运镜怎样设计才不会变成术语拼盘.md",
+      "exists": true
+    },
+    {
+      "file": "shot-language-design\\references\\空间编排与教程校验.md",
+      "target": "E:/AI漫剧/03_参考资料/02_知识笔记/03_导演与视听叙事/文字分镜怎样连接空间图故事板与视频提示词.md",
+      "exists": true
+    },
+    {
+      "file": "shot-language-design\\试跑\\V0.11_景别组接与主动运镜重设计.md",
+      "target": "E:/AI漫剧/04_项目管理/02_任务记录/2026-10-27_镜头景别与运镜系统重修.md",
+      "exists": true
+    }
+  ],
+  "active_files": [
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\project-script-analysis\\references\\adaptation-production-handoff.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\project-script-analysis\\references\\analysis-method.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\project-script-analysis\\references\\director-book.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\project-script-analysis\\references\\evidence-led-analysis.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\project-script-analysis\\references\\reading-sources.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\project-script-analysis\\references\\story-and-scene-diagnosis.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\project-script-analysis\\references\\四阶段协作规范.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\project-script-analysis\\references\\观看动力与信息诊断.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\project-script-analysis\\SKILL.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\photoreal-drama-director\\references\\主体行动与角色表演设计.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\photoreal-drama-director\\references\\书籍方法与选择检查.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\photoreal-drama-director\\references\\交付与验收.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\photoreal-drama-director\\references\\多人空间与视听统筹.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\photoreal-drama-director\\references\\导演与分镜交接规范.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\photoreal-drama-director\\references\\导演决策与场面设计.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\photoreal-drama-director\\references\\导演方案比较与反向验收.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\photoreal-drama-director\\references\\整体意图与逐场推进.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\photoreal-drama-director\\references\\观众体验与情绪组织.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\photoreal-drama-director\\references\\角色表演与微表情设计操作手册.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\photoreal-drama-director\\SKILL.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\shot-language-design\\references\\主体行动与表演交接.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\shot-language-design\\references\\交付分支与验收.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\shot-language-design\\references\\分镜决策与连续性.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\shot-language-design\\references\\分镜设计操作指南.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\shot-language-design\\references\\场景动态设计.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\shot-language-design\\references\\声音与对白设计.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\shot-language-design\\references\\导演方案接收与回查.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\shot-language-design\\references\\摄影机与光学设计.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\shot-language-design\\references\\时间与场景动态.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\shot-language-design\\references\\景别组接与段落节奏.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\shot-language-design\\references\\空间编排与教程校验.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\shot-language-design\\references\\落幅切点与承接设计.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\shot-language-design\\references\\观看条件与情绪落地.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\shot-language-design\\references\\运镜设计与执行检查.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\shot-language-design\\references\\运镜设计操作指南.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\shot-language-design\\references\\镜头设计方法.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\shot-language-design\\SKILL.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\video-prompt-authoring\\references\\acceptance-and-trial.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\video-prompt-authoring\\references\\seedance-adaptation.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\video-prompt-authoring\\references\\structure-and-rules.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\video-prompt-authoring\\references\\分镜接收与回传.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\video-prompt-authoring\\SKILL.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\tig-blocking-map\\references\\体系接口与回查.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\tig-blocking-map\\references\\站位图设计与交付.md",
+    "E:\\AI漫剧\\02_制作方法\\02_专业技能\\自研Skill\\tig-blocking-map\\SKILL.md"
+  ],
+  "bridge_broken": []
+}

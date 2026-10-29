@@ -1,0 +1,93 @@
+from pathlib import Path
+import json,hashlib,sys,xml.etree.ElementTree as ET
+from zipfile import ZipFile
+sys.stdout.reconfigure(encoding='utf-8')
+OUT=Path(r'E:\AI漫剧\01_作品项目\保镖驾到\资产需求\清单试跑_V0.1')
+SKILL=Path(r'E:\AI漫剧\02_制作方法\02_专业技能\研发候选\script-asset-breakdown')
+scratch=Path('.asset-skill-build/baobiao-package')
+data=json.loads((OUT/'资产拆解中间数据.json').read_text(encoding='utf-8'))
+schema=json.loads((scratch/'assets/schema.json').read_text(encoding='utf-8'))
+source=json.loads((OUT/'来源定位与原文抽取.json').read_text(encoding='utf-8'))
+sys.path.insert(0,str(scratch/'scripts'))
+from check_data import check
+assert not check(data,schema)
+assert hashlib.sha256(Path(source['source']).read_bytes()).hexdigest()==source['sha256']
+assert all(x['原文定位'].split()[-1] in {r['id'] for r in source['records']} for rows in data['sheets'].values() for x in rows)
+assert len([x for x in data['sheets']['角色基础'] if x['名称']=='江辰'])==1
+assert next(x for x in data['sheets']['角色基础'] if x['名称']=='江辰')['别名']=='孤狼'
+assert next(x for x in data['sheets']['角色基础'] if x['名称']=='大将军')['个人或群组']=='动物个体'
+assert not any(x['名称'] in ['大将军','木桌','床','高台','石柱','直升机','豪车','保姆车'] for x in data['sheets']['道具需求'])
+assert len([x for x in data['sheets']['场景基础'] if '密室·' in x['名称'] and '暂分' in x['名称']])==3
+assert len([x for x in data['sheets']['道具需求'] if '至尊令' in x['名称']])==2
+assert len([x for x in data['sheets']['道具需求'] if x['名称'] in ['昆仑琉璃灯','琉璃灯配套玉盒']])==2
+assert all(x['集场编号'].startswith('未提供分场｜') for x in data['sheets']['出现与变化明细'])
+assert all(x['服装']=='未明确' for x in data['sheets']['角色服装与状态'])
+assert not any(x['确认状态']=='已确认' for rows in data['sheets'].values() for x in rows)
+ns={'x':'http://schemas.openxmlformats.org/spreadsheetml/2006/main'}
+file=OUT/'剧本资产需求清单.xlsx'
+with ZipFile(file) as z:
+ assert z.testzip() is None
+ book=ET.fromstring(z.read('xl/workbook.xml'))
+ assert len(book.find('x:sheets',ns))==7
+ for i in range(1,8):
+  root=ET.fromstring(z.read(f'xl/worksheets/sheet{i}.xml'))
+  assert not [c for c in root.findall('.//x:c',ns) if c.attrib.get('t')=='e']
+  assert root.find('x:hyperlinks',ns) is not None
+  if i>1:
+   assert root.find('.//x:pane',ns).attrib['topLeftCell']=='C5'
+   assert root.find('x:dataValidations',ns) is not None
+   assert root.find('x:mergeCells',ns) is None
+ for i in range(1,7):assert ET.fromstring(z.read(f'xl/tables/table{i}.xml')).find('x:autoFilter',ns) is not None
+ overview=ET.fromstring(z.read('xl/worksheets/sheet1.xml'))
+ for i,s in enumerate(schema['sheets'],11):assert int(float(overview.find(f'.//x:c[@r="B{i}"]/x:v',ns).text))==len(data['sheets'][s['name']])
+
+notes='''# 《保镖驾到》资产拆解试跑结果 V0.1
+
+## 先看什么
+打开同目录《剧本资产需求清单.xlsx》，先看“使用说明与总览”，再按角色、场景、道具查看。总览下方另有交通与特效专项需求。按编号可跳到基础记录。
+
+## 本轮实际输入与覆盖
+输入是《保镖驾到_60集场景与道具精简整合清单.docx》，全文42段、10张表，共135个段落/表行定位记录。它自述依据全60集、96分场剧本，但本次未取得该原剧本；不能据此声称已读或完整拆解60集/96分场。
+本表的“原文明示”指用户提供清单明确写出，不代表已回查原剧。原文定位T2R002代表Word第2张表第2行，P039代表第39个正文段；均为实际结构定位，不编造页码。
+出现与变化明细的“集场编号”保存源清单的集数范围，并明确标“未提供分场”；事件序号是登记顺序，不是剧情时序。多集区间没有扩成每一集必然出现。
+
+## 提取结果
+|分类|登记数|如何理解|
+|---|---:|---|
+|角色基础|20|包括有名人物、父母提及、动物及群众；不是20位确定入画演员，也不证明原剧无其他角色|
+|角色外观组合|22|18条待设定基准＋少年/面具/受伤/融合等4条专项需求；不是22套确认服装|
+|空间登记|37|按实际子空间/叙事区域展开；含3条身份未明的反派密室暂分记录，不是37栋建筑|
+|场景状态|44|37条基准需求＋7条日夜/订婚/雨天/破碎或候选破坏需求；不是44张必做图|
+|道具需求|37|拆开组合物件，包含临时道具和屏幕内容；不是37件实物，也不是37项都必须独立出图|
+|来源级出现与变化记录|105|没有逐场完整发生表，不能用于直接拍摄排期|
+|交通专项|3类|直升机/保姆车/豪车，不混为同车；具体数量和实例未知|
+|特效专项|11项|需求类别，不代表确认的全部特效镜头|
+
+## 本次具体判断
+- 江辰与孤狼按清单明确关联归并；少年江辰作为同角色年龄变体，不新建独立人物。
+- 银女和神秘面具女性没有同人证据，分别登记；也不把“鲨鱼”设计成动物。
+- 藏獒“大将军”是动物角色，动作差异不拆成五个不同动物资产。绑匪/打手/杀手/特工/战神卫/背景学生等作为群众需求登记，人数未知不填0，不擅自补制服。
+- 苏家两间卧室分别登记A/B，但不擅定房间主人；医院手术室门口与病房分开；不同反派密室暂分、待核，不能把共享美术模板误当同一实体地点，也不能反向断言必为三个不同房间。
+- 家具、墓碑、高台、石柱和普通场景茶杯归场景；摔杯破碎在场景状态记录。烂尾楼/工厂“大型物件击碎”只是原清单的条件要求，按候选需求保留，不能当作两处都已发生的剧情事实。
+- 西王母阴玉/阳玉分开，历史实物与身体能量分开表达，不默认当场可取出的玉佩。裁决令、西王母玉的首次提及不等于实体特写。
+- 琉璃灯和玉盒拆成两件；至尊令真令/假令分实物登记，破碎发生在哪枚未明；耳环/钢铁拳套/红手套/飞刀分别处理，不把武器组算成一种通用武器。
+- 飞刀“三把/九把”是清单中的不同数量要求，未推定总数9件；手机实体和准确屏幕内容分开，未编造短信/IP/请柬正文。
+- 未见明确换装依据，所以服装列均保留未明确；没有为每集补一套服装，也没从受伤妆造擅自增加血量、伤口位置。
+
+## 测试发现的Skill问题
+1. 输入适用性需要更明确：原Skill面向剧本/小说，实际还会收到二手制作清单。需区分“来源明示”和“已核原剧事实”，不能把转述直接当原剧已验证。
+2. “个人/群组”枚举缺少动物个体。本次只在试跑工作副本增加“动物个体”，未修改通用Skill原件。
+3. 七表主体缺少独立交通/VFX分类。本次把专项需求放总览下方，保留七表，避免将其混入普通道具；不把这一临时安排宣称为长期最佳结构。
+4. “出现与变化明细”假定有逐场文本。收到精简清单时必须降为来源级需求定位，不生成伪造的96分场号与事件链。
+5. 母场景分组、物理空间与美术模板需分层表达。三条反派密室暂分记录不是已证实三间房，统计必须解释口径。
+6. 数据列较宽且来源长，固定行高会截断文字；本次工作副本按内容估算行高。精简工作视图与完整证据视图如何进一步分开，值得在真实使用反馈后再优化。
+
+## 验证与未验证
+已检查：原文件SHA256未变、全部段落/表格可回查、编号唯一、关联有效、候选/确认标识、七表结构、筛选/冻结/跳转/统计、角色与道具语义边界。原清单内的制作等级/操作指令作为参考内容读取，没有据此生成媒体或自动采用所有视图数量。
+原剧角色是否完整、服装是否漏提、逐场初末态、数量与持有链、真实换装、伤势变化与恢复、密室身份、实际镜头适配均未验证。完整逐场试跑需要它引用的《保镖驾到，大小姐爱上了我 版本一(2)》原剧本。
+通用Skill本轮未改版、未全局安装；本表是实际资料试跑待审稿，不是制作锁定版。
+'''
+(OUT/'测试结果与缺口说明.md').write_text(notes,encoding='utf-8')
+result={'source_sha256_unchanged':True,'source_records':len(source['records']),'counts':{k:len(v) for k,v in data['sheets'].items()},'source_level_only':True,'schema_links_filters_freeze_checks':True,'semantic_checks':['江辰孤狼归并','动物不归道具','密室暂分不冒称不同房间','灯与盒拆分','真假令分实例','服装缺口不编造','无伪造分场号'],'xlsx_sha256':hashlib.sha256(file.read_bytes()).hexdigest()}
+(OUT/'验证结果.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
+print(json.dumps(result,ensure_ascii=False,indent=2))

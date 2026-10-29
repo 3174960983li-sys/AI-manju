@@ -1,0 +1,4 @@
+interface:
+  display_name: "剧本资产拆解"
+  short_description: "按角色、场景、道具三类整理五列Excel，服装状态与子场景紧跟对应资产"
+  default_prompt: "使用 $script-asset-breakdown 阅读我提供的剧本，输出三表五列的Excel，把服装、状态和子场景排在所属资产下面。"

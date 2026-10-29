@@ -1,0 +1,5 @@
+{
+  "ffmpeg": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\codex-media-review-20261024\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v7.1.exe",
+  "package": "imageio-ffmpeg 0.6.0",
+  "purpose": "仅本地解码与抽帧；未提交生成、转录或外部上传"
+}

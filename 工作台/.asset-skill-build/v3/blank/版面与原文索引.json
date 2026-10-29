@@ -1,0 +1,23 @@
+{
+  "version": 3,
+  "sheets": [
+    {
+      "name": "角色",
+      "last_row": 6,
+      "groups": [],
+      "assets": []
+    },
+    {
+      "name": "场景",
+      "last_row": 6,
+      "groups": [],
+      "assets": []
+    },
+    {
+      "name": "道具",
+      "last_row": 6,
+      "groups": [],
+      "assets": []
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "cyber-character",
+    "version": "1.0.1-local",
+    "maintenance": "E:\\AI漫剧\\02_制作方法\\02_专业技能\\第三方Skill\\cyber-character",
+    "installed": "C:\\Users\\Administrator\\.codex\\skills\\cyber-character",
+    "files": 3,
+    "byte_equal": true
+  },
+  {
+    "name": "cyber-scene",
+    "version": "1.0.1-local",
+    "maintenance": "E:\\AI漫剧\\02_制作方法\\02_专业技能\\第三方Skill\\cyber-scene",
+    "installed": "C:\\Users\\Administrator\\.codex\\skills\\cyber-scene",
+    "files": 3,
+    "byte_equal": true
+  },
+  {
+    "name": "cyber-prop",
+    "version": "1.0.1-local",
+    "maintenance": "E:\\AI漫剧\\02_制作方法\\02_专业技能\\第三方Skill\\cyber-prop",
+    "installed": "C:\\Users\\Administrator\\.codex\\skills\\cyber-prop",
+    "files": 3,
+    "byte_equal": true
+  }
+]

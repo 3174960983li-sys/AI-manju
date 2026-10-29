@@ -1,0 +1,23 @@
+{
+  "zip": "E:\\AI漫剧\\04_项目管理\\02_任务记录\\2026-10-27_分镜运镜表演系统R2_完整交付.zip",
+  "zip_sha256": "7c8e656c988f69367bb8585cae88f0ed29636a16f3b5fd7546797b08324c7009",
+  "bytes": 436724,
+  "files": 86,
+  "skill_files_identical": 67,
+  "crc": "passed",
+  "extracted_sha256": "all matched",
+  "relative_links": 119,
+  "optional_local_links": 17,
+  "manual_pages": [
+    7,
+    8,
+    8
+  ],
+  "installed_sync": [
+    {
+      "skill": "project-script-analysis",
+      "files_synchronized": 12,
+      "unknown_files_deleted": 0
+    }
+  ]
+}

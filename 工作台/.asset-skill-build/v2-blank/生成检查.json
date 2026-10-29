@@ -1,0 +1,8 @@
+{
+  "inspection": "{\"kind\":\"table\",\"sheet\":\"角色\",\"address\":\"A5:E10\",\"rows\":6,\"cols\":5,\"values\":[[\"编号\",\"名称\",\"简洁描述\",\"原文内容\",\"出现集数\"],[null,null,null,null,null],[null,null,null,null,null],[null,null,null,null,null],[null,null,null,null,null],[null,null,null,null,null]]}",
+  "rows": {
+    "角色": 0,
+    "场景": 0,
+    "道具": 0
+  }
+}

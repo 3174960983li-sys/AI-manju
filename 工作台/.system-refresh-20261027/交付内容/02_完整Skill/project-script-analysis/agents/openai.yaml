@@ -1,0 +1,4 @@
+interface:
+  display_name: "项目剧本分析"
+  short_description: "先理解项目与剧本并讨论关键问题，再整理人物背景风格及逐场内容为Word导演本"
+  default_prompt: "使用 $project-script-analysis，先阅读我提供的项目要求与剧本，汇总理解、制作重点和关键问题，与我讨论方向后再完善Word导演本。"

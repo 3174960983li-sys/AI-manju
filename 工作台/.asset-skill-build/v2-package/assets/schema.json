@@ -1,0 +1,47 @@
+{
+  "version": "2.0",
+  "schema_version": 2,
+  "columns": [
+    "编号",
+    "名称",
+    "简洁描述",
+    "原文内容",
+    "出现集数"
+  ],
+  "sheets": [
+    {
+      "name": "角色",
+      "prefix": "R"
+    },
+    {
+      "name": "场景",
+      "prefix": "S"
+    },
+    {
+      "name": "道具",
+      "prefix": "(?:P|T)"
+    }
+  ],
+  "kinds": [
+    "资产",
+    "母场景",
+    "子场景",
+    "服装",
+    "状态",
+    "载具"
+  ],
+  "row_fields": [
+    "id",
+    "parent_id",
+    "kind",
+    "name",
+    "description",
+    "original",
+    "episodes",
+    "source_refs",
+    "evidence",
+    "review",
+    "user_notes",
+    "legacy_ids"
+  ]
+}

@@ -1,0 +1,1358 @@
+{
+  "schema_version": 3,
+  "meta": {
+    "project": "保镖驾到",
+    "scope": [
+      1,
+      20
+    ],
+    "source_name": "保镖驾到，大小姐爱上了我  版本一(3).docx",
+    "source_type": "用户指定原剧，仅前20集",
+    "date": "2026-10-28",
+    "sample_only": true,
+    "event_coverage": "仅代表性证据，不是各资产首次/全部/末次统计"
+  },
+  "source_records": [
+    {
+      "id": "P064",
+      "text": "▲绑匪基地，江辰脸上戴着半张银色面具，站在楼顶，冷冷地俯视着基地。",
+      "episode": 1,
+      "scene": "1-1"
+    },
+    {
+      "id": "P066",
+      "text": "老高（vo）：好，被绑架的人质叫苏小菲，她身上可能有西王母玉。",
+      "episode": 1,
+      "scene": "1-1"
+    },
+    {
+      "id": "P074",
+      "text": "▲不远处，苏小菲被绑在柱子上。因为被绳子勒紧，通过紧贴着的衣服，能看出她的姣好身材。",
+      "episode": 1,
+      "scene": "1-2"
+    },
+    {
+      "id": "P091",
+      "text": "绑匪首领（震惊）：银色面具，你……你是特工榜排名第一的孤狼！",
+      "episode": 1,
+      "scene": "1-2"
+    },
+    {
+      "id": "P105",
+      "text": "江辰（打量着苏小菲 os）这是西王母玉的治疗功效，果然在她身上！但她藏哪里了？",
+      "episode": 1,
+      "scene": "1-2"
+    },
+    {
+      "id": "P115",
+      "text": "▲江辰摘下面具，露出他英俊的脸庞。",
+      "episode": 1,
+      "scene": "1-2"
+    },
+    {
+      "id": "P139",
+      "text": "江辰：你好，我是保镖江辰。",
+      "episode": 2,
+      "scene": "2-1"
+    },
+    {
+      "id": "P203",
+      "text": "▲苏小菲偷偷观察江辰，江辰的侧脸棱角分明，她心跳有些加快，脸色微红。",
+      "episode": 3,
+      "scene": "3-1"
+    },
+    {
+      "id": "P317",
+      "text": "6-2 夜 内 苏家别墅",
+      "episode": 6,
+      "scene": "6-2"
+    },
+    {
+      "id": "P322",
+      "text": "▲苏小菲说完，上了楼。",
+      "episode": 6,
+      "scene": "6-2"
+    },
+    {
+      "id": "P329",
+      "text": "6-3 夜 外 苏家别墅院子",
+      "episode": 6,
+      "scene": "6-3"
+    },
+    {
+      "id": "P331",
+      "text": "▲苏家别墅的围墙上，打手们接二连三翻落，跳进院子里，迅速前进。",
+      "episode": 6,
+      "scene": "6-3"
+    },
+    {
+      "id": "P336",
+      "text": "▲“砰！砰！砰！”闷响声此起彼伏，打手如断线风筝般倒飞出去，有的摔进花坛，有的跌进水池，有的滚落台阶。",
+      "episode": 6,
+      "scene": "6-3"
+    },
+    {
+      "id": "P344",
+      "text": "7-1 夜 外 苏小菲卧室和阳台",
+      "episode": 7,
+      "scene": "7-1"
+    },
+    {
+      "id": "P346",
+      "text": "▲卧室内，苏小菲穿着睡衣，伸了个懒腰，刚掀开被子，忽然听到院子里有声音。",
+      "episode": 7,
+      "scene": "7-1"
+    },
+    {
+      "id": "P348",
+      "text": "▲她起身走出阳台，看到院子里，打手头领正拿着匕首，刺向江辰，苏小菲震惊地瞪大眼。",
+      "episode": 7,
+      "scene": "7-1"
+    },
+    {
+      "id": "P357",
+      "text": "▲苏小菲飞快跑到院子里，看到院子里横七竖八躺着一堆人。",
+      "episode": 7,
+      "scene": "7-2"
+    },
+    {
+      "id": "P370",
+      "text": "7-3 夜 内 苏小菲卧室",
+      "episode": 7,
+      "scene": "7-3"
+    },
+    {
+      "id": "P372",
+      "text": "▲江辰抱着苏小菲回到卧房，把她放在床上。",
+      "episode": 7,
+      "scene": "7-3"
+    },
+    {
+      "id": "P374",
+      "text": "▲江辰走到窗边，打通一个电话。",
+      "episode": 7,
+      "scene": "7-3"
+    },
+    {
+      "id": "P375",
+      "text": "江辰：老高，我这里出了点状况，你找人过来打扫一下。",
+      "episode": 7,
+      "scene": "7-3"
+    },
+    {
+      "id": "P378",
+      "text": "▲江辰的目光扫过苏小菲娇美的脸庞，最终落在她胸前睡衣的扣子上。",
+      "episode": 7,
+      "scene": "7-3"
+    },
+    {
+      "id": "P388",
+      "text": "8-2 日 内 苏小菲卧室",
+      "episode": 8,
+      "scene": "8-2"
+    },
+    {
+      "id": "P392",
+      "text": "▲她掀开被子起床，连睡衣都没换，冲出房间。",
+      "episode": 8,
+      "scene": "8-2"
+    },
+    {
+      "id": "P397",
+      "text": "▲身穿睡衣的苏小菲冲下楼。",
+      "episode": 8,
+      "scene": "8-3"
+    },
+    {
+      "id": "P407",
+      "text": "▲苏小菲跑到院子里，看到整洁的院子，她满脸的不可思议。",
+      "episode": 8,
+      "scene": "8-3"
+    },
+    {
+      "id": "P408",
+      "text": "苏小菲（喃喃）：一点打斗的痕迹都没有，难道真的是我在做梦……（回头看向江辰，突然大声）不对，我记得昨晚你还打晕了我，你打我的时候，好痛！",
+      "episode": 8,
+      "scene": "8-3"
+    },
+    {
+      "id": "P422",
+      "text": "▲院中悄无声息进来一个黑衣人（字幕：血手，杀手榜第八），身形如鬼魅般飘到张阎王身前。",
+      "episode": 9,
+      "scene": "9-1"
+    },
+    {
+      "id": "P425",
+      "text": "▲血手几个闪现，所有人都摔倒在地，特写血手举在半空，戴着血色手套的右手。",
+      "episode": 9,
+      "scene": "9-1"
+    },
+    {
+      "id": "P427",
+      "text": "血手（冷酷）：我是血手，上面派我来帮你。（扫了眼地上的打手，嗤笑）果然是一群废物，难怪连个人都抓不到。",
+      "episode": 9,
+      "scene": "9-1"
+    },
+    {
+      "id": "P445",
+      "text": "▲不远处，一位高挑靓丽的白人女孩，微笑着朝苏小菲走来。",
+      "episode": 9,
+      "scene": "9-2"
+    },
+    {
+      "id": "P446",
+      "text": "▲字幕：雪狐（艾薇）特工榜第十",
+      "episode": 9,
+      "scene": "9-2"
+    },
+    {
+      "id": "P488",
+      "text": "▲血手闪现来到苏小菲面前，血红手套的右手抓向苏小菲。",
+      "episode": 10,
+      "scene": "10-2"
+    },
+    {
+      "id": "P490",
+      "text": "▲血手转手攻向艾薇，艾薇被击退三步。血手追击，艾薇胸口被血手击中，当场倒在地上。",
+      "episode": 10,
+      "scene": "10-2"
+    },
+    {
+      "id": "P511",
+      "text": "血手（略带不屑）：速度是挺快，看着也唬人。可惜了，我认识你，你是“影”，特工榜排名四十九的吊车尾。",
+      "episode": 11,
+      "scene": "11-1"
+    },
+    {
+      "id": "P549",
+      "text": "▲重伤的艾薇忍不住呻吟出声，吐出一口黑血。苏小菲脸色剧变，扑到艾薇身边跪下来。",
+      "episode": 12,
+      "scene": "12-1"
+    },
+    {
+      "id": "P551",
+      "text": "艾薇（脸色苍白，嘴角带血）：当年……我执行任务受伤，是你救了我一命。现在，保护你是我应该做的事。",
+      "episode": 12,
+      "scene": "12-1"
+    },
+    {
+      "id": "P552",
+      "text": "▲艾薇话音刚落，又接连咳血。",
+      "episode": 12,
+      "scene": "12-1"
+    },
+    {
+      "id": "P555",
+      "text": "▲苏小菲双手放在艾薇的胸口。一道隐约可见的绿色光芒从苏小菲右手掌心散发出来，没入艾薇的胸口。",
+      "episode": 12,
+      "scene": "12-1"
+    },
+    {
+      "id": "P556",
+      "text": "▲艾薇的脸色，肉眼可见好转。",
+      "episode": 12,
+      "scene": "12-1"
+    },
+    {
+      "id": "P558",
+      "text": "江辰（os）：这是……西王母玉的力量。",
+      "episode": 12,
+      "scene": "12-1"
+    },
+    {
+      "id": "P579",
+      "text": "▲苏小菲治疗结束，搀扶着艾薇站起来。",
+      "episode": 13,
+      "scene": "13-1"
+    },
+    {
+      "id": "P587",
+      "text": "艾薇：小菲的能力非常神奇，我没事了。",
+      "episode": 13,
+      "scene": "13-1"
+    },
+    {
+      "id": "P629",
+      "text": "▲江辰掏出一个手掌大小的微型计算机，用数据线连接微型计算机和张阎王的手机，然后在微型计算机的屏幕上点了几下。",
+      "episode": 14,
+      "scene": "14-1"
+    },
+    {
+      "id": "P630",
+      "text": "▲微型计算机屏幕跳出一段IP地址。",
+      "episode": 14,
+      "scene": "14-1"
+    },
+    {
+      "id": "P676",
+      "text": "▲苏小菲推门进去，看到江辰脱了上衣，正准备走向卫生间，二人四目相对。",
+      "episode": 16,
+      "scene": "16-1"
+    },
+    {
+      "id": "P782",
+      "text": "▲周天掏出一副钢铁拳套，戴上。苏小菲脸色大变。",
+      "episode": 19,
+      "scene": "19-1"
+    },
+    {
+      "id": "P788",
+      "text": "▲江辰目光落在苏小菲耳朵上的耳环上。",
+      "episode": 19,
+      "scene": "19-1"
+    },
+    {
+      "id": "P790",
+      "text": "▲江辰伸手，摘下苏小菲一只耳环。手指不经意磨摩擦耳垂，苏小菲脸红了。",
+      "episode": 19,
+      "scene": "19-1"
+    },
+    {
+      "id": "P800",
+      "text": "▲周天拳头朝着江辰打来，江辰淡定地站在原地，右手食指和中指捏着耳环，迎向周天的拳套。",
+      "episode": 20,
+      "scene": "20-1"
+    },
+    {
+      "id": "P801",
+      "text": "▲耳环正中拳套，周天发出一声惨叫，狼狈地倒退几步。",
+      "episode": 20,
+      "scene": "20-1"
+    },
+    {
+      "id": "P803",
+      "text": "▲周天惊慌失措地查看拳套，拳套逐渐破裂（做裂纹特写），他大惊失色。",
+      "episode": 20,
+      "scene": "20-1"
+    },
+    {
+      "id": "P804",
+      "text": "▲江辰晃了晃指间的耳环，完好无损。",
+      "episode": 20,
+      "scene": "20-1"
+    },
+    {
+      "id": "P808",
+      "text": "江辰（勾起嘴角）：影，特工榜四十九。",
+      "episode": 20,
+      "scene": "20-1"
+    },
+    {
+      "id": "P817",
+      "text": "江辰（微笑，递上耳环）：耳环还给你。",
+      "episode": 20,
+      "scene": "20-1"
+    },
+    {
+      "id": "P821",
+      "text": "▲江辰靠近苏小菲，帮她戴耳环。",
+      "episode": 20,
+      "scene": "20-1"
+    },
+    {
+      "id": "P825",
+      "text": "▲江辰为她戴好耳环，轻拍她的肩膀。",
+      "episode": 20,
+      "scene": "20-1"
+    }
+  ],
+  "assets": {
+    "角色": [
+      {
+        "id": "R01",
+        "name": "江辰（孤狼／影，同人别名）",
+        "description": "事实：本名江辰；首集以银色面具身份被认出为孤狼，第11及20集被称为影。摘下面具后原文仅给英俊，另有侧脸棱角分明描写。缺口：具体年龄、发型、肤色未由这些证据确定。",
+        "kind": "资产",
+        "parent_id": "",
+        "source_ids": [
+          "P064",
+          "P091",
+          "P115",
+          "P139",
+          "P203",
+          "P511",
+          "P808"
+        ],
+        "events": [
+          {
+            "episode": 1,
+            "scene": "1-1",
+            "mode": "现场",
+            "source_id": "P064"
+          },
+          {
+            "episode": 1,
+            "scene": "1-2",
+            "mode": "现场",
+            "source_id": "P091"
+          },
+          {
+            "episode": 1,
+            "scene": "1-2",
+            "mode": "现场",
+            "source_id": "P115"
+          },
+          {
+            "episode": 2,
+            "scene": "2-1",
+            "mode": "现场",
+            "source_id": "P139"
+          },
+          {
+            "episode": 3,
+            "scene": "3-1",
+            "mode": "现场",
+            "source_id": "P203"
+          },
+          {
+            "episode": 11,
+            "scene": "11-1",
+            "mode": "现场",
+            "source_id": "P511"
+          },
+          {
+            "episode": 20,
+            "scene": "20-1",
+            "mode": "现场",
+            "source_id": "P808"
+          }
+        ],
+        "appearance_facts": [
+          {
+            "text": "脸上戴半张银色面具",
+            "source_ids": [
+              "P064"
+            ]
+          },
+          {
+            "text": "摘下面具后露出英俊脸庞",
+            "source_ids": [
+              "P115"
+            ]
+          },
+          {
+            "text": "侧脸棱角分明",
+            "source_ids": [
+              "P203"
+            ]
+          }
+        ],
+        "appearance_gaps": [
+          "具体年龄",
+          "发型",
+          "肤色"
+        ]
+      },
+      {
+        "id": "R01-01",
+        "name": "江辰：脱去上衣状态",
+        "description": "第16集在自己的卧室脱了上衣，准备去卫生间。只是上身状态，不推断全裸、裤装或肌肉细节。",
+        "kind": "状态",
+        "parent_id": "R01",
+        "source_ids": [
+          "P676"
+        ],
+        "events": [
+          {
+            "episode": 16,
+            "scene": "16-1",
+            "mode": "现场",
+            "source_id": "P676"
+          }
+        ],
+        "appearance_facts": [
+          {
+            "text": "脱了上衣",
+            "source_ids": [
+              "P676"
+            ]
+          }
+        ],
+        "appearance_gaps": [
+          "下身衣着",
+          "具体肌肉形态"
+        ]
+      },
+      {
+        "id": "R02",
+        "name": "苏小菲",
+        "description": "被绑架的人质、苏向南之女；本文只选睡衣相关需求，不补全角色定妆。",
+        "kind": "资产",
+        "parent_id": "",
+        "source_ids": [
+          "P074",
+          "P346",
+          "P378",
+          "P392",
+          "P397"
+        ],
+        "events": [
+          {
+            "episode": 1,
+            "scene": "1-2",
+            "mode": "现场",
+            "source_id": "P074"
+          },
+          {
+            "episode": 7,
+            "scene": "7-1",
+            "mode": "现场",
+            "source_id": "P346"
+          },
+          {
+            "episode": 7,
+            "scene": "7-3",
+            "mode": "现场",
+            "source_id": "P378"
+          },
+          {
+            "episode": 8,
+            "scene": "8-2",
+            "mode": "现场",
+            "source_id": "P392"
+          },
+          {
+            "episode": 8,
+            "scene": "8-3",
+            "mode": "现场",
+            "source_id": "P397"
+          }
+        ],
+        "appearance_facts": [
+          {
+            "text": "第1集衣服被绳子勒紧，原文称姣好身材",
+            "source_ids": [
+              "P074"
+            ]
+          }
+        ],
+        "appearance_gaps": [
+          "发型与发色",
+          "具体衣装颜色与材质"
+        ]
+      },
+      {
+        "id": "R02-01",
+        "name": "苏小菲：睡衣",
+        "description": "第7集穿睡衣，胸前有扣子；第8集次晨明确未换睡衣。未写颜色、材质、长短或蕾丝。",
+        "kind": "服装",
+        "parent_id": "R02",
+        "source_ids": [
+          "P346",
+          "P378",
+          "P392",
+          "P397"
+        ],
+        "events": [
+          {
+            "episode": 7,
+            "scene": "7-1",
+            "mode": "现场",
+            "source_id": "P346"
+          },
+          {
+            "episode": 7,
+            "scene": "7-3",
+            "mode": "现场",
+            "source_id": "P378"
+          },
+          {
+            "episode": 8,
+            "scene": "8-2",
+            "mode": "现场",
+            "source_id": "P392"
+          },
+          {
+            "episode": 8,
+            "scene": "8-3",
+            "mode": "现场",
+            "source_id": "P397"
+          }
+        ],
+        "appearance_facts": [
+          {
+            "text": "穿着睡衣",
+            "source_ids": [
+              "P346"
+            ]
+          },
+          {
+            "text": "胸前睡衣有扣子",
+            "source_ids": [
+              "P378"
+            ]
+          },
+          {
+            "text": "次晨睡衣未换",
+            "source_ids": [
+              "P392"
+            ]
+          }
+        ],
+        "appearance_gaps": [
+          "颜色",
+          "材质",
+          "长短",
+          "具体版型"
+        ]
+      },
+      {
+        "id": "R03",
+        "name": "艾薇（雪狐）",
+        "description": "第9集原文明示高挑靓丽的白人女孩，字幕标注雪狐（艾薇）；不据此补发色、眼睛颜色或服装。",
+        "kind": "资产",
+        "parent_id": "",
+        "source_ids": [
+          "P445",
+          "P446"
+        ],
+        "events": [
+          {
+            "episode": 9,
+            "scene": "9-2",
+            "mode": "现场",
+            "source_id": "P445"
+          },
+          {
+            "episode": 9,
+            "scene": "9-2",
+            "mode": "现场",
+            "source_id": "P446"
+          }
+        ],
+        "appearance_facts": [
+          {
+            "text": "高挑靓丽的白人女孩",
+            "source_ids": [
+              "P445"
+            ]
+          }
+        ],
+        "appearance_gaps": [
+          "发色",
+          "眼睛颜色",
+          "服装"
+        ]
+      },
+      {
+        "id": "R03-01",
+        "name": "艾薇：胸口受伤与咳黑血状态",
+        "description": "第10集胸口被击中、倒地；第12集才明确吐黑血、脸色苍白、嘴角带血。不把第12集血污倒写到第10集。",
+        "kind": "状态",
+        "parent_id": "R03",
+        "source_ids": [
+          "P490",
+          "P549",
+          "P551",
+          "P552"
+        ],
+        "events": [
+          {
+            "episode": 10,
+            "scene": "10-2",
+            "mode": "现场",
+            "source_id": "P490"
+          },
+          {
+            "episode": 12,
+            "scene": "12-1",
+            "mode": "现场",
+            "source_id": "P549"
+          },
+          {
+            "episode": 12,
+            "scene": "12-1",
+            "mode": "现场",
+            "source_id": "P551"
+          },
+          {
+            "episode": 12,
+            "scene": "12-1",
+            "mode": "现场",
+            "source_id": "P552"
+          }
+        ],
+        "appearance_facts": [
+          {
+            "text": "胸口被击中并倒地",
+            "source_ids": [
+              "P490"
+            ]
+          },
+          {
+            "text": "吐出黑血",
+            "source_ids": [
+              "P549"
+            ]
+          },
+          {
+            "text": "脸色苍白、嘴角带血",
+            "source_ids": [
+              "P551"
+            ]
+          }
+        ],
+        "appearance_gaps": [
+          "外伤创口形态",
+          "服装血污位置与面积"
+        ]
+      },
+      {
+        "id": "R03-02",
+        "name": "艾薇：接受治疗后恢复",
+        "description": "第12集脸色好转，第13集治疗结束后被扶起且自述没事；未写血迹消失或衣服自动恢复。",
+        "kind": "状态",
+        "parent_id": "R03",
+        "source_ids": [
+          "P556",
+          "P579",
+          "P587"
+        ],
+        "events": [
+          {
+            "episode": 12,
+            "scene": "12-1",
+            "mode": "现场",
+            "source_id": "P556"
+          },
+          {
+            "episode": 13,
+            "scene": "13-1",
+            "mode": "现场",
+            "source_id": "P579"
+          },
+          {
+            "episode": 13,
+            "scene": "13-1",
+            "mode": "现场",
+            "source_id": "P587"
+          }
+        ],
+        "appearance_facts": [
+          {
+            "text": "脸色肉眼可见好转",
+            "source_ids": [
+              "P556"
+            ]
+          },
+          {
+            "text": "治疗结束，被苏小菲搀扶站起",
+            "source_ids": [
+              "P579"
+            ]
+          }
+        ],
+        "appearance_gaps": [
+          "血迹是否清除",
+          "衣物是否损坏或恢复"
+        ]
+      },
+      {
+        "id": "R04",
+        "name": "血手（黑衣人）",
+        "description": "第9集黑衣人现身并自报血手，右手戴血色手套；第10集称血红手套。颜色不代表手套染血，不补皮革、金属爪或血手与黑袍人同一身份。",
+        "kind": "资产",
+        "parent_id": "",
+        "source_ids": [
+          "P422",
+          "P425",
+          "P427",
+          "P488"
+        ],
+        "events": [
+          {
+            "episode": 9,
+            "scene": "9-1",
+            "mode": "现场",
+            "source_id": "P422"
+          },
+          {
+            "episode": 9,
+            "scene": "9-1",
+            "mode": "现场",
+            "source_id": "P425"
+          },
+          {
+            "episode": 9,
+            "scene": "9-1",
+            "mode": "现场",
+            "source_id": "P427"
+          },
+          {
+            "episode": 10,
+            "scene": "10-2",
+            "mode": "现场",
+            "source_id": "P488"
+          }
+        ],
+        "appearance_facts": [
+          {
+            "text": "黑衣人",
+            "source_ids": [
+              "P422"
+            ]
+          },
+          {
+            "text": "右手戴血色手套",
+            "source_ids": [
+              "P425"
+            ]
+          },
+          {
+            "text": "第10集右手戴血红手套",
+            "source_ids": [
+              "P488"
+            ]
+          }
+        ],
+        "appearance_gaps": [
+          "黑衣款式和材质",
+          "手套材质与结构"
+        ]
+      }
+    ],
+    "场景": [
+      {
+        "id": "S01",
+        "name": "苏家别墅",
+        "description": "母场景；本次只抽取卧室、阳台和院子，未列全别墅资产。室内上楼与外部院子分别有原文，不建立未经证实的全屋平面图。",
+        "kind": "母场景",
+        "parent_id": "",
+        "source_ids": [
+          "P317",
+          "P322",
+          "P329",
+          "P346",
+          "P348",
+          "P407"
+        ],
+        "events": [
+          {
+            "episode": 6,
+            "scene": "6-2",
+            "mode": "现场",
+            "source_id": "P317"
+          },
+          {
+            "episode": 6,
+            "scene": "6-2",
+            "mode": "现场",
+            "source_id": "P322"
+          },
+          {
+            "episode": 6,
+            "scene": "6-3",
+            "mode": "现场",
+            "source_id": "P329"
+          },
+          {
+            "episode": 7,
+            "scene": "7-1",
+            "mode": "现场",
+            "source_id": "P346"
+          },
+          {
+            "episode": 7,
+            "scene": "7-1",
+            "mode": "现场",
+            "source_id": "P348"
+          },
+          {
+            "episode": 8,
+            "scene": "8-3",
+            "mode": "现场",
+            "source_id": "P407"
+          }
+        ],
+        "appearance_facts": [],
+        "appearance_gaps": [
+          "完整平面布局",
+          "建筑外观和装修风格"
+        ]
+      },
+      {
+        "id": "S01-01",
+        "name": "苏小菲卧室",
+        "description": "室内有床、被子和窗；第7集走出阳台可以看院内情况。未写卧室面积、窗向和装修。",
+        "kind": "子场景",
+        "parent_id": "S01",
+        "source_ids": [
+          "P346",
+          "P370",
+          "P372",
+          "P374",
+          "P388"
+        ],
+        "events": [
+          {
+            "episode": 7,
+            "scene": "7-1",
+            "mode": "现场",
+            "source_id": "P346"
+          },
+          {
+            "episode": 7,
+            "scene": "7-3",
+            "mode": "现场",
+            "source_id": "P370"
+          },
+          {
+            "episode": 7,
+            "scene": "7-3",
+            "mode": "现场",
+            "source_id": "P372"
+          },
+          {
+            "episode": 7,
+            "scene": "7-3",
+            "mode": "现场",
+            "source_id": "P374"
+          },
+          {
+            "episode": 8,
+            "scene": "8-2",
+            "mode": "现场",
+            "source_id": "P388"
+          }
+        ],
+        "appearance_facts": [
+          {
+            "text": "卧室有床和被子",
+            "source_ids": [
+              "P346",
+              "P372"
+            ]
+          },
+          {
+            "text": "卧室有窗",
+            "source_ids": [
+              "P374"
+            ]
+          }
+        ],
+        "appearance_gaps": [
+          "房间面积",
+          "窗朝向",
+          "装修材质"
+        ]
+      },
+      {
+        "id": "S01-02",
+        "name": "苏小菲卧室关联阳台",
+        "description": "苏小菲从卧室走出阳台，能看到院子内匕首刺向江辰；不把阳台并成卧室室内，不补朝向或栏杆材质。",
+        "kind": "子场景",
+        "parent_id": "S01",
+        "source_ids": [
+          "P344",
+          "P346",
+          "P348"
+        ],
+        "events": [
+          {
+            "episode": 7,
+            "scene": "7-1",
+            "mode": "现场",
+            "source_id": "P344"
+          },
+          {
+            "episode": 7,
+            "scene": "7-1",
+            "mode": "现场",
+            "source_id": "P346"
+          },
+          {
+            "episode": 7,
+            "scene": "7-1",
+            "mode": "现场",
+            "source_id": "P348"
+          }
+        ],
+        "appearance_facts": [
+          {
+            "text": "从卧室可走出阳台，阳台能看到院子里的行动",
+            "source_ids": [
+              "P346",
+              "P348"
+            ]
+          }
+        ],
+        "appearance_gaps": [
+          "阳台方位",
+          "栏杆材质",
+          "尺寸"
+        ]
+      },
+      {
+        "id": "S01-03",
+        "name": "苏家别墅院子",
+        "description": "院内有花坛、水池、台阶，围墙可翻入；这些来自明确动作描写，不扩展成泳池、喷泉或特定园林。",
+        "kind": "子场景",
+        "parent_id": "S01",
+        "source_ids": [
+          "P329",
+          "P331",
+          "P336",
+          "P357"
+        ],
+        "events": [
+          {
+            "episode": 6,
+            "scene": "6-3",
+            "mode": "现场",
+            "source_id": "P329"
+          },
+          {
+            "episode": 6,
+            "scene": "6-3",
+            "mode": "现场",
+            "source_id": "P331"
+          },
+          {
+            "episode": 6,
+            "scene": "6-3",
+            "mode": "现场",
+            "source_id": "P336"
+          },
+          {
+            "episode": 7,
+            "scene": "7-2",
+            "mode": "现场",
+            "source_id": "P357"
+          }
+        ],
+        "appearance_facts": [
+          {
+            "text": "有围墙",
+            "source_ids": [
+              "P331"
+            ]
+          },
+          {
+            "text": "有花坛、水池和台阶",
+            "source_ids": [
+              "P336"
+            ]
+          }
+        ],
+        "appearance_gaps": [
+          "水池类型",
+          "园林布局",
+          "具体材质"
+        ]
+      },
+      {
+        "id": "S01-03-01",
+        "name": "院子：次晨整洁状态",
+        "description": "第8集明确整洁、一点打斗痕迹都没有；第7集叫人打扫是需求，不证明清洁人员实际出镜。",
+        "kind": "状态",
+        "parent_id": "S01-03",
+        "source_ids": [
+          "P375",
+          "P407",
+          "P408"
+        ],
+        "events": [
+          {
+            "episode": 7,
+            "scene": "7-3",
+            "mode": "仅提及",
+            "source_id": "P375"
+          },
+          {
+            "episode": 8,
+            "scene": "8-3",
+            "mode": "现场",
+            "source_id": "P407"
+          },
+          {
+            "episode": 8,
+            "scene": "8-3",
+            "mode": "现场",
+            "source_id": "P408"
+          }
+        ],
+        "appearance_facts": [
+          {
+            "text": "次晨院子整洁、无打斗痕迹",
+            "source_ids": [
+              "P407",
+              "P408"
+            ]
+          }
+        ],
+        "appearance_gaps": [
+          "清理方式",
+          "清理人员是否出镜"
+        ]
+      }
+    ],
+    "道具": [
+      {
+        "id": "P01",
+        "name": "周天的钢铁拳套",
+        "description": "第19集周天掏出一副钢铁拳套戴上；第20集被耳环击中。不补尖刺、镶嵌或装甲结构。",
+        "kind": "资产",
+        "parent_id": "",
+        "source_ids": [
+          "P782",
+          "P800",
+          "P801"
+        ],
+        "events": [
+          {
+            "episode": 19,
+            "scene": "19-1",
+            "mode": "现场",
+            "source_id": "P782"
+          },
+          {
+            "episode": 20,
+            "scene": "20-1",
+            "mode": "现场",
+            "source_id": "P800"
+          },
+          {
+            "episode": 20,
+            "scene": "20-1",
+            "mode": "现场",
+            "source_id": "P801"
+          }
+        ],
+        "appearance_facts": [
+          {
+            "text": "一副钢铁拳套",
+            "source_ids": [
+              "P782"
+            ]
+          }
+        ],
+        "appearance_gaps": [
+          "造型细节",
+          "尺寸",
+          "表面颜色"
+        ]
+      },
+      {
+        "id": "P01-01",
+        "name": "钢铁拳套：破裂状态",
+        "description": "与完整拳套为同一物件的状态变化；耳环击中后逐渐破裂，原文要求裂纹特写。",
+        "kind": "状态",
+        "parent_id": "P01",
+        "source_ids": [
+          "P801",
+          "P803"
+        ],
+        "events": [
+          {
+            "episode": 20,
+            "scene": "20-1",
+            "mode": "现场",
+            "source_id": "P801"
+          },
+          {
+            "episode": 20,
+            "scene": "20-1",
+            "mode": "现场",
+            "source_id": "P803"
+          }
+        ],
+        "appearance_facts": [
+          {
+            "text": "拳套逐渐破裂，需裂纹特写",
+            "source_ids": [
+              "P803"
+            ]
+          }
+        ],
+        "appearance_gaps": [
+          "裂纹具体形状",
+          "碎片是否脱落"
+        ]
+      },
+      {
+        "id": "P02",
+        "name": "苏小菲的耳环",
+        "description": "原本戴在苏小菲耳上，江辰摘下一只对抗拳套，击中后完好无损，并亲手戴回；不补环形、宝石、金属或颜色。",
+        "kind": "资产",
+        "parent_id": "",
+        "source_ids": [
+          "P788",
+          "P790",
+          "P800",
+          "P804",
+          "P817",
+          "P821",
+          "P825"
+        ],
+        "events": [
+          {
+            "episode": 19,
+            "scene": "19-1",
+            "mode": "现场",
+            "source_id": "P788"
+          },
+          {
+            "episode": 19,
+            "scene": "19-1",
+            "mode": "现场",
+            "source_id": "P790"
+          },
+          {
+            "episode": 20,
+            "scene": "20-1",
+            "mode": "现场",
+            "source_id": "P800"
+          },
+          {
+            "episode": 20,
+            "scene": "20-1",
+            "mode": "现场",
+            "source_id": "P804"
+          },
+          {
+            "episode": 20,
+            "scene": "20-1",
+            "mode": "现场",
+            "source_id": "P817"
+          },
+          {
+            "episode": 20,
+            "scene": "20-1",
+            "mode": "现场",
+            "source_id": "P821"
+          },
+          {
+            "episode": 20,
+            "scene": "20-1",
+            "mode": "现场",
+            "source_id": "P825"
+          }
+        ],
+        "appearance_facts": [
+          {
+            "text": "从苏小菲耳朵摘下一只耳环",
+            "source_ids": [
+              "P788",
+              "P790"
+            ]
+          },
+          {
+            "text": "对抗拳套后完好无损",
+            "source_ids": [
+              "P804"
+            ]
+          },
+          {
+            "text": "之后戴回",
+            "source_ids": [
+              "P821",
+              "P825"
+            ]
+          }
+        ],
+        "appearance_gaps": [
+          "形状",
+          "材质",
+          "颜色",
+          "尺寸"
+        ]
+      },
+      {
+        "id": "P03",
+        "name": "西王母玉：存在与效果依据，未定本体外观",
+        "description": "本轮样例仅登记名称、剧情用途和外观缺口。第12集绿色光从苏小菲右掌发出，不说明玉本体为绿色、发光吊坠或藏在掌心。",
+        "kind": "资产",
+        "parent_id": "",
+        "source_ids": [
+          "P066",
+          "P105",
+          "P555",
+          "P558"
+        ],
+        "events": [
+          {
+            "episode": 1,
+            "scene": "1-1",
+            "mode": "仅提及",
+            "source_id": "P066"
+          },
+          {
+            "episode": 1,
+            "scene": "1-2",
+            "mode": "仅提及",
+            "source_id": "P105"
+          },
+          {
+            "episode": 12,
+            "scene": "12-1",
+            "mode": "仅提及",
+            "source_id": "P555"
+          },
+          {
+            "episode": 12,
+            "scene": "12-1",
+            "mode": "仅提及",
+            "source_id": "P558"
+          }
+        ],
+        "appearance_facts": [],
+        "appearance_gaps": [
+          "本体外形",
+          "颜色",
+          "尺寸",
+          "佩戴和藏匿位置"
+        ]
+      },
+      {
+        "id": "P04",
+        "name": "微型计算机",
+        "description": "第14集为手掌大小，通过数据线连接张阎王手机，屏幕出现一段IP地址；不编造具体IP、品牌、颜色或键盘。",
+        "kind": "资产",
+        "parent_id": "",
+        "source_ids": [
+          "P629",
+          "P630"
+        ],
+        "events": [
+          {
+            "episode": 14,
+            "scene": "14-1",
+            "mode": "现场",
+            "source_id": "P629"
+          },
+          {
+            "episode": 14,
+            "scene": "14-1",
+            "mode": "现场",
+            "source_id": "P630"
+          }
+        ],
+        "appearance_facts": [
+          {
+            "text": "手掌大小的微型计算机",
+            "source_ids": [
+              "P629"
+            ]
+          },
+          {
+            "text": "通过数据线连接张阎王的手机",
+            "source_ids": [
+              "P629"
+            ]
+          },
+          {
+            "text": "屏幕出现一段IP地址",
+            "source_ids": [
+              "P630"
+            ]
+          }
+        ],
+        "appearance_gaps": [
+          "品牌与具体形制",
+          "颜色",
+          "具体IP文字"
+        ]
+      }
+    ]
+  }
+}

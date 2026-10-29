@@ -1,0 +1,94 @@
+{
+  "kind": "机器结构与边界检查，非模型生成效果",
+  "passed": 16,
+  "total": 16,
+  "results": [
+    {
+      "name": "真实抽测数据结构、父子与出处",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "来源范围只含1—20集",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第21集只识别标题并停止，未纳入前言",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "中文集号10/16/20解析",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "无空格场标题12-1日/13-1日",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "抽样原文逐段一致",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "拒绝没有出处的外观事实",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "拒绝串用其他资产外观出处",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "拒绝范围外来源段落",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "候选不得带实际出场记录",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "拒绝失效父项",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "V3原合成数据兼容",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "V3既有第1—10集数据只读兼容",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "原默认提取接口保留前言与全部合成集",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "限定提取不泄漏下一集合成正文",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "缺集范围不静默通过",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "sample_asset_rows": {
+    "角色": 8,
+    "场景": 5,
+    "道具": 5
+  },
+  "source_records_in_read_scope": 773,
+  "sample_evidence_paragraphs": 57
+}

@@ -1,0 +1,169 @@
+[
+  {
+    "media_id": "M00",
+    "path": "E:\\AI漫剧\\01_作品项目\\植物大战僵尸\\成片.mp4",
+    "size_bytes": 145410623,
+    "mtime_ns": 1789983933803853100,
+    "duration_s": 81.15,
+    "streams": [
+      "Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 2560x1440 [SAR 1:1 DAR 16:9], 14136 kb/s, 30 fps, 30 tbr, 30 tbn (default)",
+      "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 194 kb/s (default)"
+    ],
+    "sha256": "5bf5e90a53107081ad1704f537b9b7f1d2d373a4402faaa03e53747de276c97a"
+  },
+  {
+    "media_id": "M01",
+    "path": "E:\\AI漫剧\\01_作品项目\\无限杀戮\\成片\\3.mp4",
+    "size_bytes": 247949678,
+    "mtime_ns": 1789643431687482600,
+    "duration_s": 135.49,
+    "streams": [
+      "Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 2560x1440 [SAR 1:1 DAR 16:9], 14442 kb/s, 30 fps, 30 tbr, 30 tbn (default)",
+      "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 194 kb/s (default)"
+    ]
+  },
+  {
+    "media_id": "M02",
+    "path": "E:\\AI漫剧\\01_作品项目\\无限杀戮\\成片\\9月16日(1).mp4",
+    "size_bytes": 242411343,
+    "mtime_ns": 1789642305429683500,
+    "duration_s": 132.66,
+    "streams": [
+      "Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 2560x1440 [SAR 1:1 DAR 16:9], 14421 kb/s, 30 fps, 30 tbr, 30 tbn (default)",
+      "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 194 kb/s (default)"
+    ]
+  },
+  {
+    "media_id": "M03",
+    "path": "E:\\AI漫剧\\01_作品项目\\无限杀戮\\成片\\9月16日.mp4",
+    "size_bytes": 114215137,
+    "mtime_ns": 1789547789644168300,
+    "duration_s": 78.11,
+    "streams": [
+      "Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 2560x1440 [SAR 1:1 DAR 16:9], 11545 kb/s, 30 fps, 30 tbr, 30 tbn (default)",
+      "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 148 kb/s (default)"
+    ]
+  },
+  {
+    "media_id": "M04",
+    "path": "E:\\AI漫剧\\01_作品项目\\无限杀戮\\成片\\成片.mp4",
+    "size_bytes": 145409827,
+    "mtime_ns": 1789983859854515900,
+    "duration_s": 81.15,
+    "streams": [
+      "Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 2560x1440 [SAR 1:1 DAR 16:9], 14136 kb/s, 30 fps, 30 tbr, 30 tbn (default)",
+      "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 194 kb/s (default)"
+    ],
+    "sha256": "992e28f396026c6fc9b3a2afbd2c029476fc78addfb54eed319bb23060f54a9f"
+  },
+  {
+    "media_id": "M05",
+    "path": "E:\\AI漫剧\\01_作品项目\\无限杀戮\\成片\\成片2.mp4",
+    "size_bytes": 300101563,
+    "mtime_ns": 1789737039750980700,
+    "duration_s": 163.68,
+    "streams": [
+      "Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 2560x1440 [SAR 1:1 DAR 16:9], 14468 kb/s, 30 fps, 30 tbr, 30 tbn (default)",
+      "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 194 kb/s (default)"
+    ]
+  },
+  {
+    "media_id": "M06",
+    "path": "E:\\AI漫剧\\01_作品项目\\无限杀戮\\成片\\成片3.mp4",
+    "size_bytes": 303156413,
+    "mtime_ns": 1789741038991552000,
+    "duration_s": 164.65,
+    "streams": [
+      "Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 2560x1440 [SAR 1:1 DAR 16:9], 14530 kb/s, 30 fps, 30 tbr, 30 tbn (default)",
+      "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 194 kb/s (default)"
+    ]
+  },
+  {
+    "media_id": "M07",
+    "path": "E:\\AI漫剧\\01_作品项目\\无限杀戮\\成片\\成片5.mp4",
+    "size_bytes": 304060033,
+    "mtime_ns": 1789985892999113900,
+    "duration_s": 164.68,
+    "streams": [
+      "Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 2560x1440 [SAR 1:1 DAR 16:9], 14573 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+      "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 195 kb/s (default)"
+    ]
+  },
+  {
+    "media_id": "M08",
+    "path": "E:\\AI漫剧\\01_作品项目\\无限杀戮\\成片\\最终成片.mp4",
+    "size_bytes": 313874567,
+    "mtime_ns": 1789730485036242800,
+    "duration_s": 170.88,
+    "streams": [
+      "Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 2560x1440 [SAR 1:1 DAR 16:9], 14495 kb/s, 30 fps, 30 tbr, 30 tbn (default)",
+      "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 194 kb/s (default)"
+    ]
+  },
+  {
+    "media_id": "M09",
+    "path": "E:\\AI漫剧\\01_作品项目\\无限杀戮\\成片\\片段重新设计.mp4",
+    "size_bytes": 9949373,
+    "mtime_ns": 1789728588271120700,
+    "duration_s": 5.09,
+    "streams": [
+      "Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 2560x1440 [SAR 1:1 DAR 16:9], 15505 kb/s, 30 fps, 30 tbr, 30 tbn (default)",
+      "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 191 kb/s (default)"
+    ]
+  },
+  {
+    "media_id": "M10",
+    "path": "E:\\AI漫剧\\01_作品项目\\无限杀戮\\美术\\视频片段\\1.mp4",
+    "size_bytes": 18934695,
+    "mtime_ns": 1789303326098089100,
+    "duration_s": 16.06,
+    "streams": [
+      "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 9294 kb/s, 24 fps, 24 tbr, 12288 tbn (default)",
+      "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 32000 Hz, stereo, fltp, 129 kb/s (default)"
+    ]
+  },
+  {
+    "media_id": "M11",
+    "path": "E:\\AI漫剧\\01_作品项目\\无限杀戮\\美术\\视频片段\\视频节点 1 (1).mp4",
+    "size_bytes": 11405670,
+    "mtime_ns": 1789389780484998700,
+    "duration_s": 10.05,
+    "streams": [
+      "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 8930 kb/s, 24 fps, 24 tbr, 12288 tbn (default)",
+      "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 32000 Hz, stereo, fltp, 131 kb/s (default)"
+    ]
+  },
+  {
+    "media_id": "M12",
+    "path": "E:\\AI漫剧\\01_作品项目\\无限杀戮\\美术\\视频片段\\视频节点 1 (2).mp4",
+    "size_bytes": 10860764,
+    "mtime_ns": 1789391023384429700,
+    "duration_s": 10.08,
+    "streams": [
+      "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 8499 kb/s, 24 fps, 24 tbr, 12288 tbn (default)",
+      "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 32000 Hz, stereo, fltp, 128 kb/s (default)"
+    ]
+  },
+  {
+    "media_id": "M13",
+    "path": "E:\\AI漫剧\\01_作品项目\\无限杀戮\\美术\\视频片段\\视频节点 1 (3).mp4",
+    "size_bytes": 22055789,
+    "mtime_ns": 1789391824427523600,
+    "duration_s": 16.06,
+    "streams": [
+      "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 10852 kb/s, 24 fps, 24 tbr, 12288 tbn (default)",
+      "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 32000 Hz, stereo, fltp, 128 kb/s (default)"
+    ]
+  },
+  {
+    "media_id": "M14",
+    "path": "E:\\AI漫剧\\01_作品项目\\无限杀戮\\美术\\视频片段\\视频节点 1.mp4",
+    "size_bytes": 18934695,
+    "mtime_ns": 1789303326098089100,
+    "duration_s": 16.06,
+    "streams": [
+      "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 9294 kb/s, 24 fps, 24 tbr, 12288 tbn (default)",
+      "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 32000 Hz, stereo, fltp, 129 kb/s (default)"
+    ]
+  }
+]

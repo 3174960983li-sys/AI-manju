@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-24",
+  "scope": "Changed canonical documents, candidate package and five navigation entries; not entire library or media QC",
+  "files_checked": 19,
+  "local_links_checked": 146,
+  "broken_links": [],
+  "snapshot_pairs_checked": 5,
+  "hash_mismatches": [],
+  "yaml_metadata": "parsed; short_description length valid; invocation names skill",
+  "skill_creator_quick_validate": "Skill is valid! (UTF-8 mode with temporary PyYAML dependency)",
+  "text_walkthroughs": 5,
+  "media_validation": "not performed",
+  "global_installation": "not performed"
+}

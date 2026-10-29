@@ -1,0 +1,54 @@
+[
+  {
+    "case": "合成数据结构与全部关联",
+    "passed": true
+  },
+  {
+    "case": "重复编号被拒绝",
+    "passed": true
+  },
+  {
+    "case": "未知数量填零被拒绝",
+    "passed": true
+  },
+  {
+    "case": "变体错配角色被拒绝",
+    "passed": true
+  },
+  {
+    "case": "缺失来源被拒绝",
+    "passed": true
+  },
+  {
+    "case": "停用对象仍被活动记录引用被拒绝",
+    "passed": true
+  },
+  {
+    "case": "基准成环被拒绝",
+    "passed": true
+  },
+  {
+    "case": "非本基准道具版本被拒绝",
+    "passed": true
+  },
+  {
+    "case": "改名编号不变、新变体追加、批注与无关行保留",
+    "passed": true
+  },
+  {
+    "case": "确认内容、确认状态、已有批注冲突均拒绝",
+    "passed": true
+  },
+  {
+    "case": "样稿Excel七表、冻结、筛选、验证、原生跳转与动态统计",
+    "passed": true
+  },
+  {
+    "case": "空白Excel无假资产且统计为零",
+    "passed": true
+  },
+  {
+    "case": "Skill元数据、引用与显示入口人工结构替代校验",
+    "passed": true
+  }
+]
