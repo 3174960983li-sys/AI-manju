@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI仿真人制作总控"
+  short_description: "按任务衔接仿真人剧本、导演、资产、镜头、生成与后期，保留真实验证边界"
+  default_prompt: "使用 $ai-photoreal-drama-production，根据现有材料完成本次仿真人叙事制作任务，明确有效版本、交付内容与验证范围。"

@@ -1,0 +1,37 @@
+{
+  "version": "0.1",
+  "date": "2026-10-24",
+  "maintenance": "Edit canonical sources first, then rebuild snapshots and validate links and hashes. Markdown links are localized for portability.",
+  "files": [
+    {
+      "snapshot": "contract.md",
+      "source": "E:\\AI漫剧\\02_制作方法\\01_流程规范\\共同基础\\制作对象与交接契约_V0.1.md",
+      "source_sha256": "26f8af0448f7e7d3c04f77f9aaf30cfc759a1cf09066a263d528aa36c8d9916a",
+      "snapshot_sha256": "9766e2da9ce220932765ad170acd30fdb18277316ba712187a29e42e4f081312"
+    },
+    {
+      "snapshot": "sop.md",
+      "source": "E:\\AI漫剧\\02_制作方法\\01_流程规范\\AI仿真人全流程\\AI仿真人全流程SOP_通用母版_V0.1.md",
+      "source_sha256": "6b235b3c0fa00054ee5ac59116850df89dfcdd3e481d9b382031223c80fb8b62",
+      "snapshot_sha256": "6aa132acd397c9504b147484d0688329f7a633f21a4a43c5e57bc11d65663c9f"
+    },
+    {
+      "snapshot": "coordinator.md",
+      "source": "E:\\AI漫剧\\02_制作方法\\02_专业技能\\Agent职责与交接\\AI仿真人总控Agent_V0.1.md",
+      "source_sha256": "00dd4d9e55cd3eed862d791262b8805c73977ff9f832b7896192778e5477bb6e",
+      "snapshot_sha256": "ffade798423173538750507a023ec0768ea2909554e4ff244e17c250b6eea069"
+    },
+    {
+      "snapshot": "roles.md",
+      "source": "E:\\AI漫剧\\02_制作方法\\02_专业技能\\Agent职责与交接\\AI仿真人职能角色与交接_V0.1.md",
+      "source_sha256": "00bd11d9ae17da63227a17b41852b1d57980148eece7269a7d979135ac50dacf",
+      "snapshot_sha256": "c0bcf447600099d7c6b2038f1dc5495c1fbfb8a3f7e42cabbe5ac155484cef28"
+    },
+    {
+      "snapshot": "capabilities.md",
+      "source": "E:\\AI漫剧\\02_制作方法\\02_专业技能\\通用能力映射\\AI仿真人Skill组合与适配_V0.1.md",
+      "source_sha256": "ece33cf8841bd2f84e5f99b26c9975410bb02761e2addd6be22bf3a41ce1c72c",
+      "snapshot_sha256": "f9b1c99a80ee5ed8ea5fa96b95541436da43523f9d75e9595474677d31490ee9"
+    }
+  ]
+}

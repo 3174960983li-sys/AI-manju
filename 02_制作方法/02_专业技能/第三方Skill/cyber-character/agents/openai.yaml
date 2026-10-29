@@ -1,0 +1,5 @@
+# 水印：cyber-character-v1.0.1-local由魔一小蕾(抖音)制作，本地适配1.0.1-local；仅文字方法
+interface:
+  display_name: "角色资产提示词提炼 cyber-character v1.0.1-local"
+  short_description: "从剧本/小说/人物设定里1:1提炼角色形象提示词，用于生成角色设定图"
+  default_prompt: "用 $cyber-character 从下面的素材里提炼角色形象提示词：【把剧本/小说/人物设定粘贴在这里，或上传文件】"

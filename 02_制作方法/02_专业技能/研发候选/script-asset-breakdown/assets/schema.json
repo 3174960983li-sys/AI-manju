@@ -1,0 +1,55 @@
+{
+  "schema_version": 3,
+  "columns": [
+    "编号",
+    "名称",
+    "资产描述",
+    "完整原文",
+    "出现集数"
+  ],
+  "sheets": [
+    "角色",
+    "场景",
+    "道具"
+  ],
+  "paragraph_fields": [
+    "id",
+    "text",
+    "episode",
+    "scene"
+  ],
+  "node_fields": [
+    "id",
+    "name",
+    "description",
+    "parent_id",
+    "kind",
+    "source_ids",
+    "events",
+    "candidate",
+    "planned_episodes",
+    "outfit_id",
+    "review",
+    "user_notes",
+    "appearance_facts",
+    "appearance_gaps"
+  ],
+  "event_fields": [
+    "episode",
+    "scene",
+    "mode",
+    "source_id",
+    "inferred"
+  ],
+  "event_modes": [
+    "现场",
+    "画外音",
+    "闪回",
+    "仅提及"
+  ],
+  "source_contract": "原文目录不可改写；V2短摘不构成V3来源；多文件/版本ID需命名空间",
+  "scope_contract": "实际出场与候选拟用、仅提及分开，首末只限本轮；来源段落不得带范围外集数",
+  "appearance_facts_contract": "可选数组，每项text与source_ids；出处必须已纳入该资产source_ids，语义另审",
+  "appearance_gaps_contract": "可选文字数组；原文未确定的外观项目，不填入外观事实",
+  "sample_contract": "仅测试时允许代表性样本；部分events不冒充全量首末统计"
+}

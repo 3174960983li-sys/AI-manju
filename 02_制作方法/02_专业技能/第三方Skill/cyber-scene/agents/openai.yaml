@@ -1,0 +1,5 @@
+# 水印：cyber-scene-v1.0.1-local由魔一小蕾(抖音)制作，本地适配1.0.1-local；仅文字方法
+interface:
+  display_name: "场景资产提示词提炼 cyber-scene v1.0.1-local"
+  short_description: "从剧本/小说/场景设定里1:1提炼场景形象提示词，画面不含人物"
+  default_prompt: "用 $cyber-scene 从下面的素材里提炼场景形象提示词：【把剧本/小说/场景设定粘贴在这里，或上传文件】"

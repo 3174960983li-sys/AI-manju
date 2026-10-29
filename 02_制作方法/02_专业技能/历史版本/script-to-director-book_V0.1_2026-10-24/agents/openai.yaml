@@ -1,0 +1,4 @@
+interface:
+  display_name: "项目剧本分析与导演本"
+  short_description: "解读仿真人项目与剧本，整理逐场导演本、风格候选及制作需求，保留原稿"
+  default_prompt: "使用 $script-to-director-book，根据项目要求和有效剧本整理导演本，区分原文、推断与候选方案，暂不展开逐镜分镜。"

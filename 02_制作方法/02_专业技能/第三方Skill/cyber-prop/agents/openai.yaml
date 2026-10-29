@@ -1,0 +1,5 @@
+# 水印：cyber-prop-v1.0.1-local由魔一小蕾(抖音)制作，本地适配1.0.1-local；仅文字方法
+interface:
+  display_name: "道具资产提示词提炼 cyber-prop v1.0.1-local"
+  short_description: "从剧本/小说/道具设定里1:1提炼道具形象提示词，用于生成道具设定图"
+  default_prompt: "用 $cyber-prop 从下面的素材里提炼道具形象提示词：【把剧本/小说/道具设定粘贴在这里，或上传文件】"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "剧本资产拆解"
+  short_description: "按原文取证外观、服装和状态，保留缺口；支持范围抽测及原文可展开三表Excel"
+  default_prompt: "使用 $script-asset-breakdown 分析我提供的剧本及小传，充分描述资产，逐字保留相关完整原文，并输出服装、状态、子场景同组的Excel。"
