@@ -7,10 +7,12 @@ import streamlit as st
 from .hub import HubService, STATES, PROGRESS, GATES, INPUTS, CAPABILITIES
 from .workflow import STAGES
 
-WORKSPACES = ["阶段工作区", "项目总览", "任务与交付", "确认中心", "规范索引"]
+WORKSPACES = ["阶段工作区", "项目总览", "任务与交付", "确认中心", "规范索引", "整剧与单集", "镜头与分镜", "共享资产", "制作批次", "质量检查", "交付与归档", "预算与工时", "变更与恢复"]
 
 
 def render_overview(database, project_id):
+    from .production import ProductionService
+    from .episodes import EpisodeService
     hub = HubService(database)
     rows = hub.overview(project_id)
     st.markdown("### 项目总览")
@@ -19,15 +21,20 @@ def render_overview(database, project_id):
     counts[1].metric("任务与交付物", sum(r["任务"] + r["交付物"] for r in rows))
     counts[2].metric("待确认记录", sum(r["待确认"] for r in rows))
     st.dataframe(rows, hide_index=True, width="stretch")
+    records = ProductionService(database).list(project_id)
+    st.markdown('#### 内容与生产对象')
+    st.dataframe([{'对象':'单集','数量':len(EpisodeService(database).list_episodes(project_id))}] +
+                 [{'对象':kind,'数量':sum(x['kind']==kind for x in records)} for kind in ('镜头','资产','批次','质检','交付','资源','变更')], hide_index=True)
     st.info("按整剧规划后分批开发与制作。阶段进度、成果采用、质量检查和开工确认是不同结论，本页面不互相推导。")
     with st.expander("整体架构与模块接入状态"):
         st.markdown("**内容层级：整剧 → 单集 → 场次 → 镜头**；共享资产与制作任务跨层关联。批次是生产组织单位，不替代单集结构。")
         st.dataframe([
             {"模块": "项目／整剧", "状态": "已实现项目与阶段记录"},
-            {"模块": "单集／镜头", "状态": "已确定架构，专用对象管理待完善"},
+            {"模块": "单集", "状态": "规划、剧本关联、历史与JSON导出已实现"},
+            {"模块": "镜头", "状态": "关联实际场次，手工计划与素材位置记录已实现"},
             {"模块": "场次", "状态": "本地模拟、人工修订与导出已实现"},
             {"模块": "任务／交付／确认", "状态": "人工登记与历史已实现，依赖自动检查待完善"},
-            {"模块": "共享资产／预算工时／工具适配", "状态": "职责已映射，专业模块待完善"},
+            {"模块": "共享资产／预算工时／批次／质检／交付／变更", "状态": "人工记录、关联、版本历史与导出已实现"},
             {"模块": "模型／视频平台", "状态": "未连接，不发生真实生成调用"},
         ], hide_index=True, width="stretch")
     st.markdown("#### 阶段入口")

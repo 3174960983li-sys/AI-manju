@@ -94,6 +94,31 @@ CREATE TABLE IF NOT EXISTS progress_events (
  state TEXT NOT NULL, note TEXT NOT NULL, created_at TEXT NOT NULL
 );
 """
+EPISODE_SCHEMA = """
+CREATE TABLE IF NOT EXISTS episodes (
+ id TEXT PRIMARY KEY, project_id TEXT NOT NULL REFERENCES projects(id),
+ number INTEGER NOT NULL CHECK(number BETWEEN 1 AND 9999),
+ title TEXT NOT NULL, outline TEXT NOT NULL, target_seconds INTEGER NOT NULL,
+ version INTEGER NOT NULL, created_at TEXT NOT NULL, updated_at TEXT NOT NULL,
+ UNIQUE(project_id, number), UNIQUE(project_id, id)
+);
+CREATE TABLE IF NOT EXISTS script_episodes (
+ script_id TEXT PRIMARY KEY REFERENCES scripts(id),
+ project_id TEXT NOT NULL REFERENCES projects(id), episode_id TEXT NOT NULL,
+ FOREIGN KEY(project_id, episode_id) REFERENCES episodes(project_id, id)
+);
+CREATE TABLE IF NOT EXISTS episode_events (
+ id TEXT PRIMARY KEY, episode_id TEXT NOT NULL REFERENCES episodes(id),
+ version INTEGER NOT NULL, snapshot_json TEXT NOT NULL, created_at TEXT NOT NULL,
+ UNIQUE(episode_id,version)
+);
+CREATE TABLE IF NOT EXISTS script_episode_events (
+ id TEXT PRIMARY KEY, project_id TEXT NOT NULL REFERENCES projects(id),
+ script_id TEXT NOT NULL REFERENCES scripts(id), episode_id TEXT REFERENCES episodes(id),
+ note TEXT NOT NULL, created_at TEXT NOT NULL
+);
+"""
+
 class Database:
     def __init__(self, path: Path | str):
         self.path = Path(path).resolve()
@@ -110,15 +135,16 @@ class Database:
     def initialize(self):
         with self.connection() as connection:
             version = connection.execute("PRAGMA user_version").fetchone()[0]
-            if version not in (0, 1, 2, 3, 4):
+            if version not in (0, 1, 2, 3, 4, 5, 6):
                 raise ValueError("数据库版本高于本程序，请使用匹配版本，勿覆盖数据库。")
-            if version in (1, 2, 3):
+            if version in (1, 2, 3, 4, 5):
                 backup_path = self.path.with_suffix(f".before-v{version + 1}.sqlite3")
                 if not backup_path.exists():
                     with closing(sqlite3.connect(backup_path)) as destination:
                         connection.backup(destination)
-            connection.executescript(SCHEMA + WORKFLOW_SCHEMA + REVISION_SCHEMA + HUB_SCHEMA)
-            connection.execute("PRAGMA user_version = 4")
+            from .production import SCHEMA as PRODUCTION_SCHEMA
+            connection.executescript(SCHEMA + WORKFLOW_SCHEMA + REVISION_SCHEMA + HUB_SCHEMA + EPISODE_SCHEMA + PRODUCTION_SCHEMA)
+            connection.execute("PRAGMA user_version = 6")
 
     def list_projects(self):
         with self.connection() as connection:

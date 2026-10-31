@@ -15,6 +15,8 @@ from manju_m1.service import ProjectService
 from manju_m1.scene_service import SceneService
 from manju_m1.workflow import STAGES
 from manju_m1.ui_scenes import render_scene_editor
+from manju_m1.ui_episodes import render_episodes, render_script_assignment
+from manju_m1.ui_production import WORKSPACES as PRODUCTION_WORKSPACES, render_production
 from manju_m1.ui_hub import WORKSPACES, render_overview, render_register, render_stage_framework, render_library
 
 st.set_page_config(page_title="AI-manju · M1流程与剧本", page_icon="🎬", layout="wide")
@@ -75,6 +77,12 @@ def main():
     with st.sidebar:
         stage_id = st.selectbox("工作阶段", options=list(stage_map), index=2, format_func=lambda x: x + " " + stage_map[x][1], key=f"workflow_{project_id}")
         workspace = st.radio("工作区", WORKSPACES, key=f"workspace_{project_id}")
+    if workspace == "整剧与单集":
+        render_episodes(database, project_id)
+        return
+    if workspace in PRODUCTION_WORKSPACES:
+        render_production(database, project_id, PRODUCTION_WORKSPACES[workspace])
+        return
     if workspace == "项目总览":
         render_overview(database, project_id)
         return
@@ -85,7 +93,7 @@ def main():
         return
     if workspace == "确认中心":
         st.markdown("### 确认中心")
-        st.info("确认由你本人记录。批次与单集模块尚未完整实现，本轮用明确的对象、范围和版本作人工记录，不自动放行生产。")
+        st.info("确认由你本人记录。请引用单集或批次的对象ID、范围和版本；制作模块只核对记录关联，实际限定条件由你确认，不自动放行生产。")
         render_register(database, project_id, stage_id, forced_kind="确认", context="gates", show_all=True)
         return
     if workspace == "规范索引":
@@ -98,7 +106,7 @@ def main():
     with st.expander("12阶段框架与确认边界"):
         st.dataframe([{"阶段": s[0], "名称": s[1], "成果": s[3]} for s in STAGES], hide_index=True, width="stretch")
         st.info("项目立项、整剧创作基准、首批创作方向和生产基准由你确认；正式制作逐批开工、成片逐集采用。当前页面仅保存准备记录，不自动完成这些确认。")
-        st.caption("整剧—单集—场次—镜头是已定结构；本M1只建立项目、剧本及场次，不表示单集和镜头模块已实现。")
+        st.caption("内容结构：整剧—单集—场次—镜头；共享资产、批次、质检、资源、变更与交付跨阶段关联。当前为人工制作框架，不执行媒体生成。")
     render_stage_framework(database, project_id, stage_id)
     with st.expander("阶段准备记录", expanded=stage_id != "03"):
         with st.form(f"stage_notes_{project_id}_{stage_id}"):
@@ -143,6 +151,7 @@ def main():
         st.session_state[key] = scripts[0]["id"]
     script_id = st.selectbox("选择已保存剧本", options=list(script_map), format_func=lambda x: f"{script_map[x]['filename']} · {script_map[x]['char_count']}字 · {script_map[x]['created_at'][:19]} UTC", key=key)
     script = database.get_script(project_id, script_id)
+    render_script_assignment(database, project_id, script_id)
     cols = st.columns(3)
     cols[0].metric("正文字符数", len(script["content"]))
     cols[1].metric("原件大小", f"{len(script['original_bytes']) / 1024:.1f} KB")
