@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.env
+.env.*
+*.sqlite*
+*.db
+*.log
+*.pid
+制作项目/
+**/data/
+node_modules/

@@ -1,0 +1,1 @@
+"""M1: project creation and script ingestion. No model calls."""
